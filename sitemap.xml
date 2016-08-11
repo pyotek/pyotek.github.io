@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://pyotek.github.io/</loc>
+    <lastmod>2016-08-09T02:02:02+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/news/hyde-x-tag-shortcode</loc>
+    <lastmod>2016-08-09T02:02:02+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/news/welcome</loc>
+    <lastmod>2016-08-09T00:49:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/licenses/highlight-js/</loc>
+    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/licenses/hyde/</loc>
+    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/licenses/hyde-x/</loc>
+    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/licenses/hugo-material-docs/</loc>
+    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/scripts/</loc>
+    <lastmod>2016-08-01T13:17:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/make-n-mod/</loc>
+    <lastmod>2016-07-30T16:15:55+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/about/</loc>
+    <lastmod>2016-07-30T16:13:37+02:00</lastmod>
+  </url>
+  
+</urlset>
