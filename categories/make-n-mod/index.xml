@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Make N Mod on Pyotek&#39;s Projects</title>
+    <link>https://pyotek.github.io/categories/make-n-mod/</link>
+    <description>Recent content in Make N Mod on Pyotek&#39;s Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2016 01:14:23 +0200</lastBuildDate>
+    <atom:link href="https://pyotek.github.io/categories/make-n-mod/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mod a SNES Gamepad</title>
+      <link>https://pyotek.github.io/news/mod-a-snes-gamepad</link>
+      <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/news/mod-a-snes-gamepad</guid>
+      <description>&lt;p&gt;Ever wanted to make a SNES gamepad wireless?&lt;/p&gt;
+
+&lt;p&gt;Like shown by &lt;a href=&#34;http://www.xodustech.com/projects/wireless-snes-controller&#34;&gt;XodusTech&lt;/a&gt; before, a wireless keyboard is used and taken apart to achieve this.
+The site helped me with understanding how to &lt;em&gt;marry&lt;/em&gt; the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.&lt;/p&gt;
+
+&lt;p&gt;I also have to say in advance that the project was not that easy: One doesn&amp;rsquo;t have much space in a SNES controller. :D&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://pyotek.github.io/mod-snes-gp/media/ctrl_led.gif&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;Read my project documentation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
