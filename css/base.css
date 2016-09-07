@@ -294,12 +294,6 @@ a.label:hover,a.label:focus {
     }
 }
 
-@media only screen and (max-height: 33em) {
-    .small-height-hidden {
-        display:none
-    }
-}
-
 .theme-black94 .sidebar {
     background-color: #000
 }

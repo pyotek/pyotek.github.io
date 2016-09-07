@@ -57,7 +57,7 @@
     <div class="sidebar-about">
       
         <a href="https://pyotek.github.io/">
-          <img src="https://pyotek.github.io/logo.png" alt="Logo" title="Pyotek" class="small-height-hidden">
+          <img src="https://pyotek.github.io/logo.png" alt="Logo" title="Pyotek">
         </a>
       
       <h1><a href="https://pyotek.github.io/">Pyotek&#39;s Projects</a></h1>
@@ -114,14 +114,15 @@
 <h2 id="the-idea:b0a1b5ed5d927320eaea9e63df8504a1">The idea</h2>
 
 <p>File Hashing is the correct way to determine data integrity of your downloads and more.
-Therefore, it&rsquo;s practical to have built-in OS capabilities to hash files.
-The PS provides a nice and easy-to-use way to do that - the <a href="https://technet.microsoft.com/library/dn520872.aspx">Get-FileHash Utility Cmdlet</a>. That&rsquo;s right: File-Hashing with <abbr title="Message Digest 5">MD5</abbr> and various <abbr title="Secure Hash Algorithm">SHA</abbr>&hellip; variants ready to use in Windows!</p>
+Therefore, it&rsquo;s practical to have built-in OS capabilities to hash files.</p>
+
+<p>The PowerShell provides a nice and easy-to-use way to do that - the <a href="https://technet.microsoft.com/library/dn520872.aspx">Get-FileHash Utility Cmdlet</a>. That&rsquo;s right: File-Hashing with <abbr title="Message Digest 5">MD5</abbr> and various <abbr title="Secure Hash Algorithm">SHA</abbr>&hellip; variants ready to use in Windows!</p>
 
 <div class="message">
 Tired of old batch scripts? The PowerShell does have some really nice and powerful features. Give it a try! It's installed on every newer Windows version.
 </div>
 
-<p>Unfortunately, the function doesn ot show a progress. Well, for small to medium sized files that&rsquo;s really okay.
+<p>Unfortunately, the function doesn&rsquo;t show the current progress. Well, for small to medium sized files that&rsquo;s really okay.
 But: You don&rsquo;t want to hash a 20 GB file without progress indicator.
 There also is no &ldquo;callback parameter&rdquo; or similar which could be used for progress updates.</p>
 
@@ -141,9 +142,9 @@ After a bit of searching I found <a href="https://technet.microsoft.com/library/
 <p>There is no counter which contains all read bytes, but a useful alternative - &ldquo;IO Read Bytes/sec&rdquo;.
 The basic idea is to read this value every second and sum those values up to give an approximation of the current progress.</p>
 
-<p>After understanding PS runspaces for threading and a bit of scripting, <strong>PowHash was born</strong>.</p>
+<p>After understanding <abbr title="PowerShell">PS</abbr> runspaces for threading and a bit of scripting, <strong>PowHash was born</strong>.</p>
 
-<p>A disadvantage is that the &ldquo;read bytes&rdquo;-value needs to be &ldquo;cooked&rdquo; first. It takes one second to get a new value.</p>
+<p>A disadvantage is that the &ldquo;read bytes&rdquo;-value needs to be <em>cooked</em> first. It takes one second to get a new value.</p>
 
 <p>Therefore, in some cases, the file hashing <small>(to be exact: not the file hashing progress itsself, the code around it)</small> can take longer than without the progress bar.
 This could be solved in a future version by also running the <a href="https://technet.microsoft.com/library/hh849685.aspx">Get-Counter</a> invocation in a seperate runspace.</p>
