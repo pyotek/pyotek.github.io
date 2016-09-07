@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Pyotek&#39;s Projects</title>
-    <link>https://pyotek.github.io/post/</link>
-    <description>Recent content in Posts on Pyotek&#39;s Projects</description>
+    <title>Scripts on Pyotek&#39;s Projects</title>
+    <link>https://pyotek.github.io/categories/scripts/</link>
+    <description>Recent content in Scripts on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 Sep 2016 22:13:56 +0200</lastBuildDate>
-    <atom:link href="https://pyotek.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pyotek.github.io/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introducing PowHash</title>
@@ -60,65 +60,6 @@ This could be solved in a future version by also running the &lt;a href=&#34;htt
 
 &lt;p&gt;Read more about the features and download it:
 &lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/pyotek/powhash&#34;&gt;GitHub project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mod a SNES Gamepad</title>
-      <link>https://pyotek.github.io/news/mod-a-snes-gamepad</link>
-      <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/news/mod-a-snes-gamepad</guid>
-      <description>&lt;p&gt;Ever wanted to make a &lt;abbr title=&#34;Super Nintendo Entertainment System&#34;&gt;SNES&lt;/abbr&gt; gamepad wireless?&lt;/p&gt;
-
-&lt;p&gt;Like shown by &lt;a href=&#34;http://www.xodustech.com/projects/wireless-snes-controller&#34;&gt;XodusTech&lt;/a&gt; before, a wireless keyboard is used and taken apart to achieve this.
-The site helped me with understanding how to &lt;em&gt;marry&lt;/em&gt; the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.&lt;/p&gt;
-
-&lt;p&gt;I also have to say in advance that the project was not that easy: One doesn&amp;rsquo;t have much space in the &lt;abbr title=&#34;Super Nintendo Entertainment System&#34;&gt;SNES&lt;/abbr&gt; controller. :D&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://pyotek.github.io/mod-snes-gp/media/ctrl_led.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;Read my project documentation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hyde-X Tag Shortcode</title>
-      <link>https://pyotek.github.io/news/hyde-x-tag-shortcode</link>
-      <pubDate>Tue, 09 Aug 2016 02:02:02 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/news/hyde-x-tag-shortcode</guid>
-      <description>&lt;p&gt;Want to use tags (categories) in your .md files when using the Hyde-X theme like &lt;a class=&#34;label&#34; href=&#34;https://pyotek.github.io/categories/this&#34;&gt;this&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;Then this line is for you:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;a class=&amp;quot;label&amp;quot; href=&amp;quot;{{ &amp;quot;/categories/&amp;quot; | absURL }}{{ .Get &amp;quot;txt&amp;quot; | urlize }}&amp;quot;&amp;gt;{{ .Get &amp;quot;txt&amp;quot; }}&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Save in &lt;code&gt;&amp;lt;root&amp;gt;/static/shortcodes/tag.html&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Use it like &lt;code&gt;{{&amp;lt; tag txt=&amp;quot;this&amp;quot; &amp;gt;}}&lt;/code&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://pyotek.github.io/news/welcome</link>
-      <pubDate>Tue, 09 Aug 2016 00:49:13 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/news/welcome</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hi and welcome!&lt;/strong&gt; I created this page to provide an overview about my GitHub projects.&lt;/p&gt;
-
-&lt;p&gt;The sidebar shows the - yet unpopulated - categories (as of writing &lt;em&gt;&lt;i class=&#34;icon icon-lightbulb error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; Make &amp;lsquo;n&amp;rsquo; Mod&lt;/em&gt; and &lt;em&gt;&lt;i class=&#34;icon icon-code error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; Scripts&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;It will be filled with more content, soon. I am going to migrate some existing projects to GitHub.&lt;/p&gt;
 </description>
     </item>
     

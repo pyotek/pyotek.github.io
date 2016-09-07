@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -14,7 +15,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Scripts  &middot; Pyotek&#39;s Projects </title>
+  <title>Introducing PowHash  &middot; Pyotek&#39;s Projects </title>
   
     <style>
       @font-face {
@@ -46,8 +47,8 @@
   
   
 
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Hash multiple files with progress via PowerShell - plus drag &#39;n&#39; drop support. &lt;i class=&#39;icon icon-flash&#39;&gt;&lt;/i&gt;">
+  <meta name="keywords" content="PowerShell,Hashing,Progress,Get-FileHash">
   
 </head>
 <body class="theme-black94">
@@ -99,12 +100,66 @@
 
 <div class="content container" id="cc">
   <div class="post">
-    <h1 class="post-title">Scripts</h1>
-    <p>Category: <a class="label" href="https://pyotek.github.io/categories/scripts">Scripts</a></p>
+    <h1 class="post-title">Introducing PowHash</h1>
+    <span class="post-date">Sep 7, 2016 &middot; 2 minute read
+    
+    <br/>
+    <i class="icon icon-tags"></i>
+    <a class="label" href="https://pyotek.github.io/categories/powershell">PowerShell</a><a class="label" href="https://pyotek.github.io/categories/utility">Utility</a><a class="label" href="https://pyotek.github.io/categories/scripts">Scripts</a>
+    </span>
+    
 
-<p>Scripts and small pieces of code.</p>
+<p><i class="icon icon-flag error: cannot access positional params by string name"></i> <strong><a href="https://github.com/pyotek/powhash">GitHub project</a></strong></p>
+
+<h2 id="the-idea:b0a1b5ed5d927320eaea9e63df8504a1">The idea</h2>
+
+<p>File Hashing is the correct way to determine data integrity of your downloads and more.
+Therefore, it&rsquo;s practical to have built-in OS capabilities to hash files.
+The PS provides a nice and easy-to-use way to do that - the <a href="https://technet.microsoft.com/library/dn520872.aspx">Get-FileHash Utility Cmdlet</a>. That&rsquo;s right: File-Hashing with <abbr title="Message Digest 5">MD5</abbr> and various <abbr title="Secure Hash Algorithm">SHA</abbr>&hellip; variants ready to use in Windows!</p>
+
+<div class="message">
+Tired of old batch scripts? The PowerShell does have some really nice and powerful features. Give it a try! It's installed on every newer Windows version.
+</div>
+
+<p>Unfortunately, the function doesn ot show a progress. Well, for small to medium sized files that&rsquo;s really okay.
+But: You don&rsquo;t want to hash a 20 GB file without progress indicator.
+There also is no &ldquo;callback parameter&rdquo; or similar which could be used for progress updates.</p>
+
+<p>Is there really no other way? Well, I figured it out.
+My initial thought was that the task manager (or e.g. the more feature-rich ProcessExplorer) has access to the OS <abbr title="Input/Output">I/O</abbr>-statistics like how many bytes are read/written etc. - so why not use this data and calculate an approximation?
+It&rsquo;s safe to say that <a href="https://technet.microsoft.com/library/dn520872.aspx">Get-FileHash</a> must read the whole file in any way to calculate the hash.</p>
+
+<h2 id="further-investigations:b0a1b5ed5d927320eaea9e63df8504a1">Further investigations</h2>
+
+<p>I searched for functions/cmdlets that could be used to determine how many bytes were already read.
+After a bit of searching I found <a href="https://technet.microsoft.com/library/hh849685.aspx">Get-Counter</a>:</p>
+
+<blockquote>
+<p>The Get-Counter cmdlet gets live, real-time performance counter data directly from the performance monitoring instrumentation in Windows.</p>
+</blockquote>
+
+<p>There is no counter which contains all read bytes, but a useful alternative - &ldquo;IO Read Bytes/sec&rdquo;.
+The basic idea is to read this value every second and sum those values up to give an approximation of the current progress.</p>
+
+<p>After understanding PS runspaces for threading and a bit of scripting, <strong>PowHash was born</strong>.</p>
+
+<p>A disadvantage is that the &ldquo;read bytes&rdquo;-value needs to be &ldquo;cooked&rdquo; first. It takes one second to get a new value.</p>
+
+<p>Therefore, in some cases, the file hashing <small>(to be exact: not the file hashing progress itsself, the code around it)</small> can take longer than without the progress bar.
+This could be solved in a future version by also running the <a href="https://technet.microsoft.com/library/hh849685.aspx">Get-Counter</a> invocation in a seperate runspace.</p>
+
+<h2 id="get-it:b0a1b5ed5d927320eaea9e63df8504a1">Get it!</h2>
+
+<p>Read more about the features and download it:
+<i class="icon icon-flag error: cannot access positional params by string name"></i> <strong><a href="https://github.com/pyotek/powhash">GitHub project</a></strong></p>
 
   </div>
+  
 </div>
+
+
+
+
+
 </body>
 </html>

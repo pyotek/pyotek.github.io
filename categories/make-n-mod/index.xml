@@ -15,12 +15,12 @@
       <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
       
       <guid>https://pyotek.github.io/news/mod-a-snes-gamepad</guid>
-      <description>&lt;p&gt;Ever wanted to make a SNES gamepad wireless?&lt;/p&gt;
+      <description>&lt;p&gt;Ever wanted to make a &lt;abbr title=&#34;Super Nintendo Entertainment System&#34;&gt;SNES&lt;/abbr&gt; gamepad wireless?&lt;/p&gt;
 
 &lt;p&gt;Like shown by &lt;a href=&#34;http://www.xodustech.com/projects/wireless-snes-controller&#34;&gt;XodusTech&lt;/a&gt; before, a wireless keyboard is used and taken apart to achieve this.
 The site helped me with understanding how to &lt;em&gt;marry&lt;/em&gt; the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.&lt;/p&gt;
 
-&lt;p&gt;I also have to say in advance that the project was not that easy: One doesn&amp;rsquo;t have much space in a SNES controller. :D&lt;/p&gt;
+&lt;p&gt;I also have to say in advance that the project was not that easy: One doesn&amp;rsquo;t have much space in the &lt;abbr title=&#34;Super Nintendo Entertainment System&#34;&gt;SNES&lt;/abbr&gt; controller. :D&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;
 &lt;figure &gt;
