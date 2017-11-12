@@ -7,25 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Aug 2016 02:02:02 +0200</lastBuildDate>
-    <atom:link href="https://pyotek.github.io/categories/snippet/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://pyotek.github.io/categories/snippet/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Hyde-X Tag Shortcode</title>
-      <link>https://pyotek.github.io/news/hyde-x-tag-shortcode</link>
+      <title>Shortcode snippets for Hugo</title>
+      <link>https://pyotek.github.io/news/shortcodes/</link>
       <pubDate>Tue, 09 Aug 2016 02:02:02 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/hyde-x-tag-shortcode</guid>
-      <description>&lt;p&gt;Want to use tags (categories) in your .md files when using the Hyde-X theme like &lt;a class=&#34;label&#34; href=&#34;https://pyotek.github.io/categories/this&#34;&gt;this&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;Then this line is for you:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;a class=&amp;quot;label&amp;quot; href=&amp;quot;{{ &amp;quot;/categories/&amp;quot; | absURL }}{{ .Get &amp;quot;txt&amp;quot; | urlize }}&amp;quot;&amp;gt;{{ .Get &amp;quot;txt&amp;quot; }}&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Save in &lt;code&gt;&amp;lt;root&amp;gt;/static/shortcodes/tag.html&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Use it like &lt;code&gt;{{&amp;lt; tag txt=&amp;quot;this&amp;quot; &amp;gt;}}&lt;/code&gt;.&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/shortcodes/</guid>
+      <description>Shortcodes help you with writing your content markdown files in Hugo. Instead of using raw HTML, they offer a more easy-to-use and easy-to-read syntax.
+Save the shortcode in the &amp;lt;root&amp;gt;/static/shortcodes/ directory of your website.
+This page will possibly be updated to add more shortcodes.
+Hyde-X tag Want to use tags (categories) when using the Hyde-X theme like this? Then this line is for you:
+&amp;lt;a class=&amp;quot;label&amp;quot; href=&#39;{{ &amp;quot;/categories/&amp;quot; | absURL }}{{ .</description>
     </item>
     
   </channel>

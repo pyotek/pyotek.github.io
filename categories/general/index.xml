@@ -7,20 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Aug 2016 00:49:13 +0200</lastBuildDate>
-    <atom:link href="https://pyotek.github.io/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://pyotek.github.io/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Welcome</title>
-      <link>https://pyotek.github.io/news/welcome</link>
+      <link>https://pyotek.github.io/news/welcome/</link>
       <pubDate>Tue, 09 Aug 2016 00:49:13 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/welcome</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hi and welcome!&lt;/strong&gt; I created this page to provide an overview about my GitHub projects.&lt;/p&gt;
-
-&lt;p&gt;The sidebar shows the - yet unpopulated - categories (as of writing &lt;em&gt;&lt;i class=&#34;icon icon-lightbulb error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; Make &amp;lsquo;n&amp;rsquo; Mod&lt;/em&gt; and &lt;em&gt;&lt;i class=&#34;icon icon-code error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; Scripts&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;It will be filled with more content, soon. I am going to migrate some existing projects to GitHub.&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/welcome/</guid>
+      <description>Hi and welcome! I created this page to provide an overview about my GitHub projects.
+The sidebar shows the - yet unpopulated - categories (as of writing  Make &amp;lsquo;n&amp;rsquo; Mod and  Scripts).
+It will be filled with more content, soon. I am going to migrate some existing projects to GitHub.</description>
     </item>
     
   </channel>

@@ -6,62 +6,32 @@
     <description>Recent content in Scripts on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Sep 2016 22:13:56 +0200</lastBuildDate>
-    <atom:link href="https://pyotek.github.io/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Oct 2016 17:51:48 +0200</lastBuildDate>
+    
+	<atom:link href="https://pyotek.github.io/categories/scripts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Couch-Gaming Script</title>
+      <link>https://pyotek.github.io/news/display-switch/</link>
+      <pubDate>Sat, 08 Oct 2016 17:51:48 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/news/display-switch/</guid>
+      <description>Intro Playing PC games from the couch on a bigger screen is fun.
+But it requires additional steps, especially if the external bigger (TV) screen is not your primary display:
+ Switch your display (this can be done by pressing WIN+P) Start Steam or another gaming platform (e.g. in Big Picture mode)   Hey, those are just 2 additional steps, so what&amp;rsquo;s the deal?
+ Personally, I didn&amp;rsquo;t want to wait until the PC is fully started to setup everything.</description>
+    </item>
     
     <item>
       <title>Introducing PowHash</title>
-      <link>https://pyotek.github.io/news/introducing-powhash</link>
+      <link>https://pyotek.github.io/news/powhash/</link>
       <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/introducing-powhash</guid>
-      <description>
-
-&lt;p&gt;&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/pyotek/powhash&#34;&gt;GitHub project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;the-idea:b0a1b5ed5d927320eaea9e63df8504a1&#34;&gt;The idea&lt;/h2&gt;
-
-&lt;p&gt;File Hashing is the correct way to determine data integrity of your downloads and more.
-Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.&lt;/p&gt;
-
-&lt;p&gt;The PowerShell provides a nice and easy-to-use way to do that - the &lt;a href=&#34;https://technet.microsoft.com/library/dn520872.aspx&#34;&gt;Get-FileHash Utility Cmdlet&lt;/a&gt;. That&amp;rsquo;s right: File-Hashing with &lt;abbr title=&#34;Message Digest 5&#34;&gt;MD5&lt;/abbr&gt; and various &lt;abbr title=&#34;Secure Hash Algorithm&#34;&gt;SHA&lt;/abbr&gt;&amp;hellip; variants ready to use in Windows!&lt;/p&gt;
-
-&lt;div class=&#34;message&#34;&gt;
-Tired of old batch scripts? The PowerShell does have some really nice and powerful features. Give it a try! It&#39;s installed on every newer Windows version.
-&lt;/div&gt;
-
-&lt;p&gt;Unfortunately, the function doesn&amp;rsquo;t show the current progress. Well, for small to medium sized files that&amp;rsquo;s really okay.
-But: You don&amp;rsquo;t want to hash a 20 GB file without progress indicator.
-There also is no &amp;ldquo;callback parameter&amp;rdquo; or similar which could be used for progress updates.&lt;/p&gt;
-
-&lt;p&gt;Is there really no other way? Well, I figured it out.
-My initial thought was that the task manager (or e.g. the more feature-rich ProcessExplorer) has access to the OS &lt;abbr title=&#34;Input/Output&#34;&gt;I/O&lt;/abbr&gt;-statistics like how many bytes are read/written etc. - so why not use this data and calculate an approximation?
-It&amp;rsquo;s safe to say that &lt;a href=&#34;https://technet.microsoft.com/library/dn520872.aspx&#34;&gt;Get-FileHash&lt;/a&gt; must read the whole file in any way to calculate the hash.&lt;/p&gt;
-
-&lt;h2 id=&#34;further-investigations:b0a1b5ed5d927320eaea9e63df8504a1&#34;&gt;Further investigations&lt;/h2&gt;
-
-&lt;p&gt;I searched for functions/cmdlets that could be used to determine how many bytes were already read.
-After a bit of searching I found &lt;a href=&#34;https://technet.microsoft.com/library/hh849685.aspx&#34;&gt;Get-Counter&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Get-Counter cmdlet gets live, real-time performance counter data directly from the performance monitoring instrumentation in Windows.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is no counter which contains all read bytes, but a useful alternative - &amp;ldquo;IO Read Bytes/sec&amp;rdquo;.
-The basic idea is to read this value every second and sum those values up to give an approximation of the current progress.&lt;/p&gt;
-
-&lt;p&gt;After understanding &lt;abbr title=&#34;PowerShell&#34;&gt;PS&lt;/abbr&gt; runspaces for threading and a bit of scripting, &lt;strong&gt;PowHash was born&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;A disadvantage is that the &amp;ldquo;read bytes&amp;rdquo;-value needs to be &lt;em&gt;cooked&lt;/em&gt; first. It takes one second to get a new value.&lt;/p&gt;
-
-&lt;p&gt;Therefore, in some cases, the file hashing &lt;small&gt;(to be exact: not the file hashing progress itsself, the code around it)&lt;/small&gt; can take longer than without the progress bar.
-This could be solved in a future version by also running the &lt;a href=&#34;https://technet.microsoft.com/library/hh849685.aspx&#34;&gt;Get-Counter&lt;/a&gt; invocation in a seperate runspace.&lt;/p&gt;
-
-&lt;h2 id=&#34;get-it:b0a1b5ed5d927320eaea9e63df8504a1&#34;&gt;Get it!&lt;/h2&gt;
-
-&lt;p&gt;Read more about the features and download it:
-&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/pyotek/powhash&#34;&gt;GitHub project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/powhash/</guid>
+      <description>The idea File Hashing is the correct way to determine data integrity of your downloads and more. Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.
+The PowerShell provides a nice and easy-to-use way to do that - the Get-FileHash Utility Cmdlet. That&amp;rsquo;s right: File-Hashing with MD5 and various SHA&amp;hellip; variants ready to use in Windows!
+Tired of old batch scripts? The PowerShell does have some really nice and powerful features.</description>
     </item>
     
   </channel>

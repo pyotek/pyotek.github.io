@@ -6,121 +6,78 @@
     <description>Recent content in Posts on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Sep 2016 22:13:56 +0200</lastBuildDate>
-    <atom:link href="https://pyotek.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2017 16:33:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://pyotek.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PiceCold</title>
+      <link>https://pyotek.github.io/news/picecold/</link>
+      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
+      
+      <guid>https://pyotek.github.io/news/picecold/</guid>
+      <description>Why do you need a cold wallet for your Bitcoins? Imagine the following scenario:
+Your PC gets compromised. You do not notice it. You secured your wallet with a password which is sufficient? Does not matter, the attacker installed a keylogger. He only needs to sniff your password next time you do a transaction.
+Because the attacker is friendly enough (and because this is a theoretic scenario), he only stole 1 BTC out of your wallet and left a note on your desktop:</description>
+    </item>
+    
+    <item>
+      <title>Couch-Gaming Script</title>
+      <link>https://pyotek.github.io/news/display-switch/</link>
+      <pubDate>Sat, 08 Oct 2016 17:51:48 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/news/display-switch/</guid>
+      <description>Intro Playing PC games from the couch on a bigger screen is fun.
+But it requires additional steps, especially if the external bigger (TV) screen is not your primary display:
+ Switch your display (this can be done by pressing WIN+P) Start Steam or another gaming platform (e.g. in Big Picture mode)   Hey, those are just 2 additional steps, so what&amp;rsquo;s the deal?
+ Personally, I didn&amp;rsquo;t want to wait until the PC is fully started to setup everything.</description>
+    </item>
     
     <item>
       <title>Introducing PowHash</title>
-      <link>https://pyotek.github.io/news/introducing-powhash</link>
+      <link>https://pyotek.github.io/news/powhash/</link>
       <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/introducing-powhash</guid>
-      <description>
-
-&lt;p&gt;&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/pyotek/powhash&#34;&gt;GitHub project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;the-idea:b0a1b5ed5d927320eaea9e63df8504a1&#34;&gt;The idea&lt;/h2&gt;
-
-&lt;p&gt;File Hashing is the correct way to determine data integrity of your downloads and more.
-Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.&lt;/p&gt;
-
-&lt;p&gt;The PowerShell provides a nice and easy-to-use way to do that - the &lt;a href=&#34;https://technet.microsoft.com/library/dn520872.aspx&#34;&gt;Get-FileHash Utility Cmdlet&lt;/a&gt;. That&amp;rsquo;s right: File-Hashing with &lt;abbr title=&#34;Message Digest 5&#34;&gt;MD5&lt;/abbr&gt; and various &lt;abbr title=&#34;Secure Hash Algorithm&#34;&gt;SHA&lt;/abbr&gt;&amp;hellip; variants ready to use in Windows!&lt;/p&gt;
-
-&lt;div class=&#34;message&#34;&gt;
-Tired of old batch scripts? The PowerShell does have some really nice and powerful features. Give it a try! It&#39;s installed on every newer Windows version.
-&lt;/div&gt;
-
-&lt;p&gt;Unfortunately, the function doesn&amp;rsquo;t show the current progress. Well, for small to medium sized files that&amp;rsquo;s really okay.
-But: You don&amp;rsquo;t want to hash a 20 GB file without progress indicator.
-There also is no &amp;ldquo;callback parameter&amp;rdquo; or similar which could be used for progress updates.&lt;/p&gt;
-
-&lt;p&gt;Is there really no other way? Well, I figured it out.
-My initial thought was that the task manager (or e.g. the more feature-rich ProcessExplorer) has access to the OS &lt;abbr title=&#34;Input/Output&#34;&gt;I/O&lt;/abbr&gt;-statistics like how many bytes are read/written etc. - so why not use this data and calculate an approximation?
-It&amp;rsquo;s safe to say that &lt;a href=&#34;https://technet.microsoft.com/library/dn520872.aspx&#34;&gt;Get-FileHash&lt;/a&gt; must read the whole file in any way to calculate the hash.&lt;/p&gt;
-
-&lt;h2 id=&#34;further-investigations:b0a1b5ed5d927320eaea9e63df8504a1&#34;&gt;Further investigations&lt;/h2&gt;
-
-&lt;p&gt;I searched for functions/cmdlets that could be used to determine how many bytes were already read.
-After a bit of searching I found &lt;a href=&#34;https://technet.microsoft.com/library/hh849685.aspx&#34;&gt;Get-Counter&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Get-Counter cmdlet gets live, real-time performance counter data directly from the performance monitoring instrumentation in Windows.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is no counter which contains all read bytes, but a useful alternative - &amp;ldquo;IO Read Bytes/sec&amp;rdquo;.
-The basic idea is to read this value every second and sum those values up to give an approximation of the current progress.&lt;/p&gt;
-
-&lt;p&gt;After understanding &lt;abbr title=&#34;PowerShell&#34;&gt;PS&lt;/abbr&gt; runspaces for threading and a bit of scripting, &lt;strong&gt;PowHash was born&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;A disadvantage is that the &amp;ldquo;read bytes&amp;rdquo;-value needs to be &lt;em&gt;cooked&lt;/em&gt; first. It takes one second to get a new value.&lt;/p&gt;
-
-&lt;p&gt;Therefore, in some cases, the file hashing &lt;small&gt;(to be exact: not the file hashing progress itsself, the code around it)&lt;/small&gt; can take longer than without the progress bar.
-This could be solved in a future version by also running the &lt;a href=&#34;https://technet.microsoft.com/library/hh849685.aspx&#34;&gt;Get-Counter&lt;/a&gt; invocation in a seperate runspace.&lt;/p&gt;
-
-&lt;h2 id=&#34;get-it:b0a1b5ed5d927320eaea9e63df8504a1&#34;&gt;Get it!&lt;/h2&gt;
-
-&lt;p&gt;Read more about the features and download it:
-&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;strong&gt;&lt;a href=&#34;https://github.com/pyotek/powhash&#34;&gt;GitHub project&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/powhash/</guid>
+      <description>The idea File Hashing is the correct way to determine data integrity of your downloads and more. Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.
+The PowerShell provides a nice and easy-to-use way to do that - the Get-FileHash Utility Cmdlet. That&amp;rsquo;s right: File-Hashing with MD5 and various SHA&amp;hellip; variants ready to use in Windows!
+Tired of old batch scripts? The PowerShell does have some really nice and powerful features.</description>
     </item>
     
     <item>
       <title>Mod a SNES Gamepad</title>
-      <link>https://pyotek.github.io/news/mod-a-snes-gamepad</link>
+      <link>https://pyotek.github.io/news/snes-ctrl-mod/</link>
       <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/mod-a-snes-gamepad</guid>
-      <description>&lt;p&gt;Ever wanted to make a &lt;abbr title=&#34;Super Nintendo Entertainment System&#34;&gt;SNES&lt;/abbr&gt; gamepad wireless?&lt;/p&gt;
-
-&lt;p&gt;Like shown by &lt;a href=&#34;http://www.xodustech.com/projects/wireless-snes-controller&#34;&gt;XodusTech&lt;/a&gt; before, a wireless keyboard is used and taken apart to achieve this.
-The site helped me with understanding how to &lt;em&gt;marry&lt;/em&gt; the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.&lt;/p&gt;
-
-&lt;p&gt;I also have to say in advance that the project was not that easy: One doesn&amp;rsquo;t have much space in the &lt;abbr title=&#34;Super Nintendo Entertainment System&#34;&gt;SNES&lt;/abbr&gt; controller. :D&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;
-&lt;figure &gt;
-    
-        &lt;img src=&#34;https://pyotek.github.io/mod-snes-gp/media/ctrl_led.gif&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;i class=&#34;icon icon-flag error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://pyotek.github.io/mod-snes-gp&#34;&gt;Read my project documentation&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/snes-ctrl-mod/</guid>
+      <description>Ever wanted to make a SNES gamepad wireless? Read on!
+Introduction This project description shows how I modified a SNES USB Gamepad/Controller to make it work wirelessly (frequency: 2.4 GHz) by combining it with a wireless keyboard.
+I mostly used XodusTech&amp;rsquo;s site as a starting point. The site helped me with understanding how to marry the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.</description>
     </item>
     
     <item>
-      <title>Hyde-X Tag Shortcode</title>
-      <link>https://pyotek.github.io/news/hyde-x-tag-shortcode</link>
+      <title>Shortcode snippets for Hugo</title>
+      <link>https://pyotek.github.io/news/shortcodes/</link>
       <pubDate>Tue, 09 Aug 2016 02:02:02 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/hyde-x-tag-shortcode</guid>
-      <description>&lt;p&gt;Want to use tags (categories) in your .md files when using the Hyde-X theme like &lt;a class=&#34;label&#34; href=&#34;https://pyotek.github.io/categories/this&#34;&gt;this&lt;/a&gt;?&lt;/p&gt;
-
-&lt;p&gt;Then this line is for you:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;a class=&amp;quot;label&amp;quot; href=&amp;quot;{{ &amp;quot;/categories/&amp;quot; | absURL }}{{ .Get &amp;quot;txt&amp;quot; | urlize }}&amp;quot;&amp;gt;{{ .Get &amp;quot;txt&amp;quot; }}&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Save in &lt;code&gt;&amp;lt;root&amp;gt;/static/shortcodes/tag.html&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Use it like &lt;code&gt;{{&amp;lt; tag txt=&amp;quot;this&amp;quot; &amp;gt;}}&lt;/code&gt;.&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/shortcodes/</guid>
+      <description>Shortcodes help you with writing your content markdown files in Hugo. Instead of using raw HTML, they offer a more easy-to-use and easy-to-read syntax.
+Save the shortcode in the &amp;lt;root&amp;gt;/static/shortcodes/ directory of your website.
+This page will possibly be updated to add more shortcodes.
+Hyde-X tag Want to use tags (categories) when using the Hyde-X theme like this? Then this line is for you:
+&amp;lt;a class=&amp;quot;label&amp;quot; href=&#39;{{ &amp;quot;/categories/&amp;quot; | absURL }}{{ .</description>
     </item>
     
     <item>
       <title>Welcome</title>
-      <link>https://pyotek.github.io/news/welcome</link>
+      <link>https://pyotek.github.io/news/welcome/</link>
       <pubDate>Tue, 09 Aug 2016 00:49:13 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/welcome</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Hi and welcome!&lt;/strong&gt; I created this page to provide an overview about my GitHub projects.&lt;/p&gt;
-
-&lt;p&gt;The sidebar shows the - yet unpopulated - categories (as of writing &lt;em&gt;&lt;i class=&#34;icon icon-lightbulb error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; Make &amp;lsquo;n&amp;rsquo; Mod&lt;/em&gt; and &lt;em&gt;&lt;i class=&#34;icon icon-code error: cannot access positional params by string name&#34;&gt;&lt;/i&gt; Scripts&lt;/em&gt;).&lt;/p&gt;
-
-&lt;p&gt;It will be filled with more content, soon. I am going to migrate some existing projects to GitHub.&lt;/p&gt;
-</description>
+      <guid>https://pyotek.github.io/news/welcome/</guid>
+      <description>Hi and welcome! I created this page to provide an overview about my GitHub projects.
+The sidebar shows the - yet unpopulated - categories (as of writing  Make &amp;lsquo;n&amp;rsquo; Mod and  Scripts).
+It will be filled with more content, soon. I am going to migrate some existing projects to GitHub.</description>
     </item>
     
   </channel>

@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pyotek.github.io/</loc>
-    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://pyotek.github.io/news/picecold/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyotek.github.io/news/introducing-powhash</loc>
+    <loc>https://pyotek.github.io/news/display-switch/</loc>
+    <lastmod>2016-10-08T17:51:48+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/donate/</loc>
+    <lastmod>2016-09-14T00:50:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/news/powhash/</loc>
     <lastmod>2016-09-07T22:13:56+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyotek.github.io/news/mod-a-snes-gamepad</loc>
+    <loc>https://pyotek.github.io/news/snes-ctrl-mod/</loc>
     <lastmod>2016-08-10T01:14:23+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyotek.github.io/news/hyde-x-tag-shortcode</loc>
+    <loc>https://pyotek.github.io/news/shortcodes/</loc>
     <lastmod>2016-08-09T02:02:02+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyotek.github.io/news/welcome</loc>
+    <loc>https://pyotek.github.io/news/welcome/</loc>
     <lastmod>2016-08-09T00:49:13+02:00</lastmod>
   </url>
   
@@ -60,6 +70,100 @@
   <url>
     <loc>https://pyotek.github.io/about/</loc>
     <lastmod>2016-07-30T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/crypto-currency/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/documentation/</loc>
+    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/general/</loc>
+    <lastmod>2016-08-09T00:49:13+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/hardware-mod/</loc>
+    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/hugo/</loc>
+    <lastmod>2016-08-09T02:02:02+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/licenses/</loc>
+    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/make-n-mod/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/pi/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/post/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/powershell/</loc>
+    <lastmod>2016-10-08T17:51:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/scripts/</loc>
+    <lastmod>2016-10-08T17:51:48+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/snippet/</loc>
+    <lastmod>2016-08-09T02:02:02+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/categories/utility/</loc>
+    <lastmod>2016-10-08T17:51:48+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
