@@ -6,29 +6,17 @@
     <description>Recent content in Powershell on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Oct 2016 17:51:48 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 07 Sep 2016 22:13:56 +0200</lastBuildDate>
     
 	<atom:link href="https://pyotek.github.io/categories/powershell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Couch-Gaming Script</title>
-      <link>https://pyotek.github.io/news/display-switch/</link>
-      <pubDate>Sat, 08 Oct 2016 17:51:48 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/news/display-switch/</guid>
-      <description>Intro Playing PC games from the couch on a bigger screen is fun.
-But it requires additional steps, especially if the external bigger (TV) screen is not your primary display:
- Switch your display (this can be done by pressing WIN+P) Start Steam or another gaming platform (e.g. in Big Picture mode)   Hey, those are just 2 additional steps, so what&amp;rsquo;s the deal?
- Personally, I didn&amp;rsquo;t want to wait until the PC is fully started to setup everything.</description>
-    </item>
-    
-    <item>
       <title>Introducing PowHash</title>
-      <link>https://pyotek.github.io/news/powhash/</link>
+      <link>https://pyotek.github.io/p/powhash/</link>
       <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/powhash/</guid>
+      <guid>https://pyotek.github.io/p/powhash/</guid>
       <description>The idea File Hashing is the correct way to determine data integrity of your downloads and more. Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.
 The PowerShell provides a nice and easy-to-use way to do that - the Get-FileHash Utility Cmdlet. That&amp;rsquo;s right: File-Hashing with MD5 and various SHA&amp;hellip; variants ready to use in Windows!
 Tired of old batch scripts? The PowerShell does have some really nice and powerful features.</description>

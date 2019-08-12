@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html ⚡><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js">
+  <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+  <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+  <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <style amp-custom>
+      @font-face {
+        font-family: 'icons';
+        src: url('https://pyotek.github.io/fonts/icons.eot?76-py073k');
+        src: url('https://pyotek.github.io/fonts/icons.eot?76-py073k#iefix') format('embedded-opentype'),
+             url('https://pyotek.github.io/fonts/icons.woff2?76-py073k') format('woff2'),
+             url('https://pyotek.github.io/fonts/icons.woff?76-py073k') format('woff'),
+             url('https://pyotek.github.io/fonts/icons.ttf?76-py073k') format('truetype'),
+             url('https://pyotek.github.io/fonts/icons.svg?76-py073k#icons') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+      *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{margin:0;padding:0}html{font-family:helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5}@media(min-width:38em){html{font-size:20px}}body{color:#515151;background-color:#fff;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a{color:#268bd2;text-decoration:none}a:hover,a:focus{text-decoration:underline}h1,h2,h3,h4,h5,h6{margin-bottom:.5rem;font-weight:700;line-height:1.25;color:#313131;text-rendering:optimizeLegibility}h1{font-size:2rem}h2{margin-top:1rem;font-size:1.5rem}h3{margin-top:1.5rem;font-size:1.25rem}p{margin-top:0;margin-bottom:1rem}strong{color:#303030}ul,ol,dl{margin-top:0;margin-bottom:1rem}hr{position:relative;margin:1.5rem 0;border:0;border-top:1px solid #eee;border-bottom:1px solid #fff}.lead{font-size:1.25rem;font-weight:300}.container{max-width:38rem;padding-left:1rem;padding-right:1rem;margin-left:auto;margin-right:auto}.page,.post{margin-bottom:4em}.page-title,.post-title,.post-title a{color:#303030}.page-title,.post-title{margin-top:0}.post-date{display:block;margin-top:-.5rem;margin-bottom:1rem;color:#9a9a9a}html{font-family:roboto,Helvetica,Arial,sans-serif}@media(min-width:48em){html{font-size:16px}}@media(min-width:58em){html{font-size:20px}}.sidebar{text-align:center;padding:2rem 1rem;color:#ffffff80;background-color:#202020}@media(min-width:48em){.sidebar{position:fixed;top:0;left:0;bottom:0;width:18rem;text-align:left}}.sidebar a{color:#fff}.sidebar-about h1{color:#fff;margin-top:0;font-family:roboto,serif;font-size:3.25rem}.sidebar-nav{margin-bottom:1rem}.sidebar-nav-item{display:block;line-height:1.9}a.sidebar-nav-item:hover,a.sidebar-nav-item:focus{text-decoration:underline}.sidebar-nav-item.active{font-weight:700}@media(min-width:48em){.sidebar-sticky{position:absolute;right:1rem;bottom:1rem;left:1rem}}.content{padding-top:4rem;padding-bottom:4rem}@media(min-width:48em){.content{max-width:38rem;margin-left:20rem;margin-right:2rem}}@media(min-width:64em){.content{margin-left:22rem;margin-right:4rem}}.sidebar-about h1{color:#fff;margin-top:0;font-family:roboto,serif;font-size:2.5rem}.sidebar-nav{padding-left:0;list-style:none;margin-bottom:1rem}.posts{list-style:none}.posts li{margin:0 0 .5em}.sidebar-logo{margin:0 auto .5rem;width:72px;height:72px}@media(min-width:58em){.sidebar-logo{margin:0 0 1rem;width:160px;height:160px}}@media only screen and (max-width:47.9em){.mobile-hidden{display:none}}@media only screen and (max-width:20em){.small-mobile-hidden{display:none}}img{display:block;max-width:100%;margin:0 0 1rem;border-radius:5px}video{border-radius:5px}.label{display:inline;padding:.2em .6em .3em;font-size:75%;font-weight:700;line-height:1;color:#fff;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:.25em}a.label:hover,a.label:focus{color:#fff;text-decoration:none;cursor:pointer}.label:empty{display:none}.label{margin:0 .25em;background-color:#313131}.posts a.label,.post-date a.label{color:#fff;text-decoration:none;cursor:pointer}.theme-black94 .sidebar{background-color:#000}.theme-black94 .content a,.theme-black94 .related-posts li a:hover{color:#51c11b}.theme-black94 .label{background-color:#000}.theme-black94>amp-img{background-color:#51c11b}
+      .icon{font:14px/1 icons;display:inline-block;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}span.icon{margin-right:.6em}.icon-2x{font-size:2em}.icon-3x{font-size:3em}.icon-gitlab:before{content:'\f296'}.icon-paypal:before{content:'\f1ed'}.icon-amazon-1:before{content:'\f270'}.icon-github-squared:before{content:'\f300'}.icon-twitter-squared:before{content:'\f304'}.icon-facebook-squared:before{content:'\f308'}.icon-linkedin-squared:before{content:'\f30c'}.icon-github-circled:before{content:'\f09b'}.icon-youtube-play:before{content:'\f16a'}.icon-stackoverflow:before{content:'\f16c'}.icon-instagram:before{content:'\f16d'}.icon-tumblr-squared:before{content:'\f174'}.icon-reddit-alien:before{content:'\f281'}.icon-reddit:before{content:'\f1a1'}.icon-coffee:before{content:'\f0f4'}.icon-magic:before{content:'\f0d0'}.icon-lightbulb:before{content:'\f0eb'}.icon-beer:before{content:'\f0fc'}.icon-gamepad:before{content:'\f11b'}.icon-terminal:before{content:'\f120'}.icon-rss-squared:before{content:'\f143'}.icon-bitcoin:before{content:'\f15a'}.icon-space-shuttle:before{content:'\f197'}.icon-birthday:before{content:'\f1fd'}.icon-heart:before{content:'\e831'}.icon-book:before{content:'\e833'}.icon-flash:before{content:'\e829'}.icon-anchor:before{content:'\f13d'}.icon-tags:before{content:'\e813'}.icon-left-circled:before{content:'\f0a8'}.icon-right-circled:before{content:'\f0a9'}.icon-info-circled:before{content:'\e801'}.icon-link:before{content:'\e834'}.icon-link-ext:before{content:'\f08e'}.icon-attention-circled:before{content:'\e80a'}
+      code,pre{font-family:Menlo,Monaco,courier new,monospace}code{padding:.25em .5em;font-size:85%;color:#bf616a;background-color:#f9f9f9;border-radius:3px}pre{display:block;margin-top:0;margin-bottom:1rem;padding:0;font-size:.8rem;line-height:1.4;white-space:pre;white-space:pre-wrap;word-break:break-all;word-wrap:break-word;background-color:#f9f9f9}blockquote{padding:.5rem 1rem;margin:.8rem 0;color:#7a7a7a;border-left:.25rem solid #e5e5e5}blockquote p:last-child{margin-bottom:0}@media(min-width:30em){blockquote{padding-right:5rem;padding-left:1.25rem}}table{margin-bottom:1rem;width:100%;border:1px solid #e5e5e5;border-collapse:collapse}td,th{padding:.25rem .5rem;border:1px solid #e5e5e5}tbody tr:nth-child(odd) td,tbody tr:nth-child(odd) th{background-color:#f9f9f9}.message{margin-bottom:1rem;padding:1rem;color:#717171;background-color:#dde9f7;border-radius:10px}.message.alert{color:#fff;background-color:#b71c1c}abbr{font-size:90%;color:#555;text-transform:uppercase;cursor:help}dt{font-weight:700}dd{margin-bottom:.5rem}
+      
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  
+
+  <link rel="canonical" href=".">
+  <title>Pyotek&#39;s Projects </title>
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="icon" sizes="192x192" href="/logo.png">
+  <link href="/favicon.png" rel="icon">
+
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://pyotek.github.io/p/picecold/"},"headline":"PiceCold","description":"Cold Bitcoin storage on a Pi via Electrum using Raspberry Pi plus Display-O-Tron!","image":{"@context":"http://schema.org","@type":"ImageObject","author":"Pyotek","url":"https://github.com/pyotek/picecold/raw/master/.github/logo.png","datePublished":"2017-11-12T16:33:10"},"wordCount":268,"datePublished":"2017-11-12T16:33:10","dateModified":"2017-11-12T16:33:10","author":{"@type":"Person","name":"Pyotek"},"publisher":{"@type":"Organization","name":"Pyotek","logo":{"@type":"ImageObject","url":"https://pyotek.github.io/logo.png "}}}</script>
+  <link rel="manifest" href="https://pyotek.github.io/manifest.min.json">
+  
+  
+
+  <meta name="description" content="Ever wanted to make your SNES Gamepad wireless? &lt;i class=&#39;icon icon-gamepad&#39;&gt;&lt;/i&gt;">
+  <meta name="keywords" content="SNES,Gamepad,Controller">
+</head><body class="theme-black94" id="top">
+        <amp-install-serviceworker src="https://pyotek.github.io/service-worker.js" layout="nodisplay"></amp-install-serviceworker><div class="sidebar">
+    <div class="container sidebar-sticky">
+      <div class="sidebar-about">
+        <a href="https://pyotek.github.io/">
+          <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-logo" width="38mm" height="38mm" viewBox="0 0 38 38"><g transform="translate(-78.09 -106.449)"><rect width="38" height="38" x="78.09" y="106.449" ry="5.7"/><text x="90.156" y="132.881" fill="#0f0" transform="scale(.995 1.005)" style="line-height:1.25;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-weight="bold" font-size="22.578" font-family="Roboto" letter-spacing="0" word-spacing="0"><tspan x="90.156" y="132.881">P</tspan></text></g></svg>
+        </a>
+        <h1 class="mobile-hidden"><a href="https://pyotek.github.io/">Pyotek&#39;s Projects</a></h1>
+        <p class="lead mobile-hidden">An awesome non-profit <em>Software</em> and <em>Hardware</em> <span class="icon icon-space-shuttle"></span>Engineering Blog.</p>
+      </div>
+  
+      <hr class="mobile-hidden">
+      <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item"><a href="https://pyotek.github.io/make-n-mod">Make &#39;n&#39; Mod</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://pyotek.github.io/scripts">Scripts</a></li>
+      
+      <li class="sidebar-nav-item"><a href="https://pyotek.github.io/about">About</a></li>
+      
+      
+      </ul>
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-item">
+        <a href="https://github.com/pyotek"><i class="icon icon-github-circled icon-2x"></i></a>
+        
+        
+        
+        
+        
+        <a href="https://instagram.com/pyotek.co"><i class="icon icon-instagram icon-2x"></i></a>
+        <a href="https://pyotek.github.io/index.xml"><i class="icon icon-rss-squared icon-2x"></i></a>
+        </li>
+      </ul>
+      <div class="mobile-hidden"><small>&copy; 2019 Pyotek<br>
+        <sup>Theme: <a href="https://github.com/zyro/hyde-x">Hyde-X</a> with <b>amp</b>lified superpowers.</i></sup>
+      </small></div>
+    </div>
+  </div><div class="content container" id="txt">
+        
+<div class="post">
+    <h1 class="post-title">Mod a SNES Gamepad</h1>
+    <span class="post-date">Aug 10, 2016 &middot; 8 minute read
+    
+    <br/>
+    <i class="icon icon-tags"></i>
+    <a class="label" href="https://pyotek.github.io/categories/documentation">Documentation</a><a class="label" href="https://pyotek.github.io/categories/hardware-mod">Hardware Mod</a><a class="label" href="https://pyotek.github.io/categories/make-n-mod">Make &#39;n&#39; Mod</a>
+    </span>
+    
+
+<p>Ever wanted to make a <abbr title="Super Nintendo Entertainment System">SNES</abbr> gamepad wireless?
+Read on!</p>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+
+<p>This project description shows how I modified a SNES USB Gamepad/Controller to make it work wirelessly (frequency: 2.4 GHz) by combining it with a wireless keyboard.</p>
+
+<p>I mostly used <a href="http://www.xodustech.com/projects/wireless-snes-controller">XodusTech&rsquo;s site</a> as a starting point.
+The site helped me with understanding how to <em>marry</em> the gamepad with the keyboard&rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.
+But instead of a Logitech keyboard I used a cheap no-name keyboard and power the gamepad with a small LiPo battery, rechargeable over a Micro-USB port - <strong>and &hellip;</strong></p>
+
+<p><amp-video
+  width="240"
+  height="135"
+  src="./media/ctrl-led.mp4"
+  poster="./media/ctrl-led.gif"
+  
+  
+  
+  layout="responsive"
+  controls loop autoplay noaudio>
+  <div fallback>
+    
+    <noscript>
+    <p><i class="icon icon-attention-circled"></i> Exactly here, there should be a video. Your browser does not seem to display it correctly.</p>
+    </noscript>
+  </div>
+</amp-video>
+<strong>Yes, I added a nice RGB LED.</strong></p>
+
+<p>Before we start, I have to say that the project was not that easy:
+One does not have much space in the <abbr title="Super Nintendo Entertainment System">SNES</abbr> controller. :-)</p>
+
+<h2 id="used-parts">Used Parts</h2>
+
+<p>This table shows the parts I needed for this project. The &ldquo;Example&rdquo; column contains the exact product name I used, but the parts you (can) use may vary. There are many possibilities to realize such a project.</p>
+
+<table>
+<thead>
+<tr>
+<th>Part name</th>
+<th>Comment</th>
+<th>Example</th>
+<th>Price [~]</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>SNES Gamepad</td>
+<td>I needed a SNES controller (obviously).</td>
+<td>(i)Buffalo Classic USB Gamepad</td>
+<td>10€</td>
+</tr>
+
+<tr>
+<td>Wireless Keyboard with USB Receiver</td>
+<td>The wireless sender inside it will be married with the SNES controller</td>
+<td>Random &amp; cheap wireless keyboard, 2.4 GHz</td>
+<td>10€</td>
+</tr>
+
+<tr>
+<td>Lithium Polymer Battery</td>
+<td>The battery powers the 2.4 GHz sender and all other components</td>
+<td>A small one (with 200 mAh capacity)</td>
+<td>5€</td>
+</tr>
+
+<tr>
+<td>Lithium Polymer Charger</td>
+<td>Charges the LiPo. The charger I took was originally for the Trinket but also works standalone</td>
+<td>Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On</td>
+<td>5€</td>
+</tr>
+
+<tr>
+<td>USB Micro-B Breakout</td>
+<td>Will be connected to the charger and can later be accessed from a small slot</td>
+<td>Adafruit USB Micro-B Breakout Board</td>
+<td>1.50€</td>
+</tr>
+
+<tr>
+<td>SPDT Slide Switch</td>
+<td>To power it on and shut it down. Saves energy.</td>
+<td></td>
+<td>0.80€</td>
+</tr>
+
+<tr>
+<td>LED</td>
+<td>Indicates power status. I found a fancy slowly RGB cycling LED.</td>
+<td>Sparkfun LED - 5mm Cycling RGB (slow)</td>
+<td>0.80€</td>
+</tr>
+
+<tr>
+<td>Cables</td>
+<td>Need to be thin and flexible</td>
+<td>Silicon Cover 30 AWG</td>
+<td>1€</td>
+</tr>
+
+<tr>
+<td>Silicon Diode</td>
+<td>I used it because of the 0.6 V drop for a more safer use of the 2.4 GHz sender</td>
+<td>Silicon Rectifier Diode</td>
+<td>0.20€</td>
+</tr>
+
+<tr>
+<td>Resistor</td>
+<td>Used for the LED</td>
+<td>680 Ω Resistor</td>
+<td>0.20€</td>
+</tr>
+</tbody>
+</table>
+
+<p>This makes something around 35€ which seems to be much at first (prices are generally rounded up).
+However, the keyboard was lying around anyway, so I personally just needed to buy the SNES controller and the stuff needed to charge the LiPo.</p>
+
+<p>In my opinion an advantage of a self-made 2.4 GHz wireless controller is that one can easily map real keyboard keys to it and use them without the need of installing any additional driver.
+It works like a keyboard, making the controller usable in the Pi&rsquo;s NOOBS and even in the BIOS of a PC if you map the needed keys correctly - which can be tricky though!</p>
+
+<div class="message">
+Unfortunately, I did not make any pictures of the build process itsself.
+All pictures were made after finishing the project. That's one of the reasons why the following is not intended as a step-by-step tutorial!
+</div>
+
+<h2 id="the-keyboard">The Keyboard</h2>
+
+<p>The 2.4GHz PCB of the keyboard was easy to get out of the case after removing many screws and located in the upper right edge in the case.</p>
+
+<p>So I extracted the 2.4 GHz transmitter and started with the very experimental &hellip;</p>
+
+<h3 id="key-mapping">Key Mapping</h3>
+
+<p>The original keyboard had 2 conductive layers with a &ldquo;plastic isolator sheet&rdquo; in the middle like shown <a href="https://en.wikipedia.org/wiki/Membrane_keyboard"><em>here</em></a>.
+On mine, layer #1 had 18 pins, layer #2 had 8 pins connected to the 2.4 GHz sender.
+This means 18 * 8 possible combinations, although some didn&rsquo;t seem to function - probably they were not needed.
+There even were 2 pins in the middle which were not connected with either one of the layers.</p>
+
+<p>For easier counting, the two layers were divided to &ldquo;left&rdquo; (<strong>L</strong>) and &ldquo;right&rdquo; (<strong>R</strong>):</p>
+
+<pre><code>
+L                                     R
+||||||||||||||||||		|||||||
+1 -&gt;            18		8  &lt;- 1
+
+</code></pre>
+
+<p>I wanted to have at least the arrow keys mapped correctly and the A-button mapped to ENTER.
+This would let me easily control the Raspberry Pi&rsquo;s NOOBS OS selection screen (and Kodi, at least partly).</p>
+
+<p>I found out the arrow and the enter keys mostly by following the traces with a sharpie.
+The other ones were taken and found more or less randomly by using a text editor.</p>
+
+<p>This means that I tested and connected one randomly chosen pin on the right side with one pin on the left side at a time with a wire (be careful not touching more than one at a time on each side).
+If the key was simple (like <em>2</em>) or &ldquo;useful&rdquo; (like <em>F10</em>), I wrote the unique key combination down (like L8+R5 according to the <em>scheme above</em>) to use it later.
+It is also recommended to use a keymapping utility where you also can see other keys than <em>a-z</em>, <em>0-9</em> etc. like <em>SHIFT</em> or <em>ESC</em>.
+For these keys I simply used the mapper of Emulation Station in <a href="https://retropie.org.uk/">RetroPie</a> (handy - as I already had it installed).</p>
+
+<h2 id="soldering-the-wires">Soldering the wires</h2>
+
+<p>At first, no solder seemed to stick to the &ldquo;pins&rdquo; of the 2.4 GHz transmitter because of a black layer (like graphite maybe?) on them.
+If you are more lucky, maybe you have some nicer solder possibilities.</p>
+
+<p>Using a bit of super-glue on the other side to fix the cable before made it much easier to solder the cables (which took quite a while).
+When soldering, it is important that the cables do not touch each other in any way.
+This would result into wrong/unintended key combinations or other malfunctioning.</p>
+
+<p>After I tested the combinations above again by connecting one wire on the left side with a wire on the right side (to be sure that there is a connection).</p>
+
+<h3 id="the-plan-electronic-schematic">The Plan - Electronic Schematic</h3>
+
+<p>I planned to use and let the components interact with each other like this:
+
+
+
+<div>
+    
+    <amp-img role="button" tabindex="0" on="tap:lightbox-1"
+    
+    src="./media/bb_components.png"
+    
+    
+    attribution="This image was created with [Fritzing](http://fritzing.org/)."
+    layout="responsive"
+    width="1755"
+    height="636">
+    <noscript>
+        <img src="./media/bb_components.png"  >
+    </noscript>
+    </amp-img>
+    <amp-image-lightbox id="lightbox-1" layout="nodisplay"></amp-image-lightbox>
+</div>
+</p>
+
+<p>The 2.4 GHz controller/transmitter from the keyboard is the green PCB on the breadboard view.</p>
+
+<p>The OFF-position of the switch is <strong>left</strong>. The controller then is in &ldquo;charging mode&rdquo; and can be charged via the Micro-USB port (leftmost on the picture).</p>
+
+<p>If the switch is slided to the <strong>right</strong> side, the keyboard controller is powered on (the LED is indicating the status - the pre-resistor used may vary in your build).</p>
+
+<p>I didn&rsquo;t want to power the controller with a fully charged LiPo @4.2V (as the keyboard originally ran with 2xAA batteries @3V overall).
+Thus, I used the diode for a voltage drop around 0.6V.
+Using a diode for this purpose is not optimal, however in this case it lets the controller run @3.6V (LiPo fully charged), @3.1V (half charged) and @2.6 (nearly empty) through the discharging circle (from 4.2V to 3.2V or less).
+In hindsight, I do not think this diode was needed&hellip; But well, it did not hurt until now.</p>
+
+<h2 id="snes-gamepad-the-mod">SNES Gamepad - The Mod</h2>
+
+<p>The gamepad arrived directly from Japan. Note that I began soldering to the 2.4 GHz transmitter and crafting the theory before I actually got the gamepad.</p>
+
+<p>After disassembling, I noticed that there was less space inside than I thought:
+The Buffalo controller is thinner than an original SNES controller and a bit slanted.
+It wasn&rsquo;t possible to power it with 2 AAA batteries because of this size limitation - I used a LiPo battery as planned before in the schematic.</p>
+
+<p>At first, the PCB of the controller kind of confused me and looked other than the PCB of an original SNES controller as seen on <a href="http://www.xodustech.com/projects/wireless-snes-controller">XodusTech&rsquo;s site</a>.</p>
+
+<p>While testing with the voltmeter (when the controller was plugged in via USB), I recognized some little copper points which were nearly every time on the &ldquo;+ side&rdquo; of each button.
+These seemed ideal to use as little solder pads.</p>
+
+<p>With those little practical solder pads at least every button could have one individual cable.
+BUT (referring to the mapping chapter): The 2.4GHz controller needed one cable on the left side connected with one cable of the right side to produce a unique button.</p>
+
+<p>This meant I could not use the principle of <em>common ground</em> because this wouldn&rsquo;t allow me to use the arrow keys as real keyboard arrow keys.
+In fact, it would limit the button combinations to 18 * 1.
+For me, the consequence was to remap the buttons (<em>d&rsquo;oh!</em>).</p>
+
+<p>A solution to solve this was to divide the PCB into 4 zones by making &ldquo;borders&rdquo; with a sharp knife/tool:</p>
+
+<p><div class="message alert">
+Advanced destruction ahead!
+</div>
+
+
+
+<div>
+    
+    <amp-img role="button" tabindex="0" on="tap:lightbox-2"
+    
+    src="./media/ctrl_inside_pcb-back.jpg"
+    
+    
+    
+    layout="responsive"
+    width="720"
+    height="405">
+    <noscript>
+        <img src="./media/ctrl_inside_pcb-back.jpg"  >
+    </noscript>
+    </amp-img>
+    <amp-image-lightbox id="lightbox-2" layout="nodisplay"></amp-image-lightbox>
+</div>
+</p>
+
+<h3 id="mounting">Mounting</h3>
+
+<p>I removed the plastic holders on the inner backside of the gamepad to get more space, I really needed it.
+There will be more pressure than before anyways because of all the components.</p>
+
+<p>After mounting all components with much <em>hot glue</em> fun:</p>
+
+
+
+
+<div>
+    
+    <amp-img role="button" tabindex="0" on="tap:lightbox-3"
+    
+    src="./media/ctrl_inside_pcb-front.jpg"
+    
+    
+    
+    layout="responsive"
+    width="720"
+    height="405">
+    <noscript>
+        <img src="./media/ctrl_inside_pcb-front.jpg"  >
+    </noscript>
+    </amp-img>
+    <amp-image-lightbox id="lightbox-3" layout="nodisplay"></amp-image-lightbox>
+</div>
+
+
+<p>I forgot to say: The gamepad&rsquo;s case also needed to be modified - I cut two small slots for the Micro-USB port and the slide switch.
+Finally, I carefully closed it up and tested it.</p>
+
+<p>It worked! I only needed to justify the case&rsquo;s screws a bit to optimize the buttons&rsquo; pressure points.</p>
+
+<h2 id="bottom-line">Bottom line</h2>
+
+<p>All in all, I have to say that this project was a bit tricky and maybe for some persons not worth the effort (also in the end it’s maybe more expensive than simply buying one of those existing Bluetooth controllers).
+However, I personally had fun when realizing this project even if there were some frustrating parts; I also got some new hardware experiences.</p>
+
+<p>&hellip; and hey, there also is the fancy LED!</p>
+
+</div>
+        </div></body>
+</html>

@@ -6,32 +6,30 @@
     <description>Recent content on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2017 16:33:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2019 16:13:37 +0200</lastBuildDate>
     
 	<atom:link href="https://pyotek.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>PiceCold</title>
-      <link>https://pyotek.github.io/news/picecold/</link>
-      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
+      <title>Offline</title>
+      <link>https://pyotek.github.io/offline/</link>
+      <pubDate>Tue, 30 Jul 2019 16:13:37 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/picecold/</guid>
-      <description>Why do you need a cold wallet for your Bitcoins? Imagine the following scenario:
-Your PC gets compromised. You do not notice it. You secured your wallet with a password which is sufficient? Does not matter, the attacker installed a keylogger. He only needs to sniff your password next time you do a transaction.
-Because the attacker is friendly enough (and because this is a theoretic scenario), he only stole 1 BTC out of your wallet and left a note on your desktop:</description>
+      <guid>https://pyotek.github.io/offline/</guid>
+      <description>You&amp;rsquo;re offline. Sorry, we have not been able (pre-)cache this site. Come back when you&amp;rsquo;re online and we&amp;rsquo;re happy to meet again!
+Congratulations, through no fault of the Enrichment Center, you have managed to trap yourself on this page.</description>
     </item>
     
     <item>
-      <title>Couch-Gaming Script</title>
-      <link>https://pyotek.github.io/news/display-switch/</link>
-      <pubDate>Sat, 08 Oct 2016 17:51:48 +0200</pubDate>
+      <title>PiceCold</title>
+      <link>https://pyotek.github.io/p/picecold/</link>
+      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
       
-      <guid>https://pyotek.github.io/news/display-switch/</guid>
-      <description>Intro Playing PC games from the couch on a bigger screen is fun.
-But it requires additional steps, especially if the external bigger (TV) screen is not your primary display:
- Switch your display (this can be done by pressing WIN+P) Start Steam or another gaming platform (e.g. in Big Picture mode)   Hey, those are just 2 additional steps, so what&amp;rsquo;s the deal?
- Personally, I didn&amp;rsquo;t want to wait until the PC is fully started to setup everything.</description>
+      <guid>https://pyotek.github.io/p/picecold/</guid>
+      <description>Why do you need a cold wallet for your Bitcoins? Imagine the following scenario:
+Your PC gets compromised. You do not notice it. You secured your wallet with a password which is sufficient? Does not matter, the attacker installed a keylogger. He only needs to sniff your password next time you do a transaction.
+Because the attacker is friendly enough (and because this is a theoretic scenario), he only stole 1 BTC out of your wallet and left a note on your desktop:</description>
     </item>
     
     <item>
@@ -40,17 +38,17 @@ But it requires additional steps, especially if the external bigger (TV) screen 
       <pubDate>Wed, 14 Sep 2016 00:50:13 +0200</pubDate>
       
       <guid>https://pyotek.github.io/donate/</guid>
-      <description>Why donate? All of my projects are free to use.
-Of course, it would be amazing if you want to donate something and therewith appreciate my work. Donations also motivate and show me that I am not doing completely useless stuff.
-With your donation, you support me so that I am able to invest more in ideas, development, coffee and new hardware. How? Currently, only Bitcoin  donations are supported.</description>
+      <description>Why donate? This blog is completely non-profit. Many linked and related projects are Open-Source and free to use.
+Of course, it would be amazing if you want to donate something and therewith appreciate Pyotek&amp;rsquo;s work. Donations also motivate us devs and show that we are not doing completely useless stuff.
+With your donation, you support us so that we are able to invest more in ideas, development, coffee and new hardware.</description>
     </item>
     
     <item>
       <title>Introducing PowHash</title>
-      <link>https://pyotek.github.io/news/powhash/</link>
+      <link>https://pyotek.github.io/p/powhash/</link>
       <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/powhash/</guid>
+      <guid>https://pyotek.github.io/p/powhash/</guid>
       <description>The idea File Hashing is the correct way to determine data integrity of your downloads and more. Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.
 The PowerShell provides a nice and easy-to-use way to do that - the Get-FileHash Utility Cmdlet. That&amp;rsquo;s right: File-Hashing with MD5 and various SHA&amp;hellip; variants ready to use in Windows!
 Tired of old batch scripts? The PowerShell does have some really nice and powerful features.</description>
@@ -58,47 +56,13 @@ Tired of old batch scripts? The PowerShell does have some really nice and powerf
     
     <item>
       <title>Mod a SNES Gamepad</title>
-      <link>https://pyotek.github.io/news/snes-ctrl-mod/</link>
+      <link>https://pyotek.github.io/p/snes-ctrl-mod/</link>
       <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/snes-ctrl-mod/</guid>
+      <guid>https://pyotek.github.io/p/snes-ctrl-mod/</guid>
       <description>Ever wanted to make a SNES gamepad wireless? Read on!
 Introduction This project description shows how I modified a SNES USB Gamepad/Controller to make it work wirelessly (frequency: 2.4 GHz) by combining it with a wireless keyboard.
 I mostly used XodusTech&amp;rsquo;s site as a starting point. The site helped me with understanding how to marry the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.</description>
-    </item>
-    
-    <item>
-      <title>Shortcode snippets for Hugo</title>
-      <link>https://pyotek.github.io/news/shortcodes/</link>
-      <pubDate>Tue, 09 Aug 2016 02:02:02 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/news/shortcodes/</guid>
-      <description>Shortcodes help you with writing your content markdown files in Hugo. Instead of using raw HTML, they offer a more easy-to-use and easy-to-read syntax.
-Save the shortcode in the &amp;lt;root&amp;gt;/static/shortcodes/ directory of your website.
-This page will possibly be updated to add more shortcodes.
-Hyde-X tag Want to use tags (categories) when using the Hyde-X theme like this? Then this line is for you:
-&amp;lt;a class=&amp;quot;label&amp;quot; href=&#39;{{ &amp;quot;/categories/&amp;quot; | absURL }}{{ .</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>https://pyotek.github.io/news/welcome/</link>
-      <pubDate>Tue, 09 Aug 2016 00:49:13 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/news/welcome/</guid>
-      <description>Hi and welcome! I created this page to provide an overview about my GitHub projects.
-The sidebar shows the - yet unpopulated - categories (as of writing  Make &amp;lsquo;n&amp;rsquo; Mod and  Scripts).
-It will be filled with more content, soon. I am going to migrate some existing projects to GitHub.</description>
-    </item>
-    
-    <item>
-      <title>Highlight.js License (2016-08-07)</title>
-      <link>https://pyotek.github.io/licenses/highlight-js/</link>
-      <pubDate>Sun, 07 Aug 2016 16:13:37 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/licenses/highlight-js/</guid>
-      <description>Copyright &amp;copy; 2006, Ivan Sagalaev All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</description>
     </item>
     
     <item>
@@ -123,17 +87,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
     </item>
     
     <item>
-      <title>Material Docs License (2016-08-07)</title>
-      <link>https://pyotek.github.io/licenses/hugo-material-docs/</link>
-      <pubDate>Sun, 07 Aug 2016 16:13:37 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/licenses/hugo-material-docs/</guid>
-      <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
-Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
-    </item>
-    
-    <item>
       <title>Scripts</title>
       <link>https://pyotek.github.io/scripts/</link>
       <pubDate>Mon, 01 Aug 2016 13:17:06 +0200</pubDate>
@@ -141,7 +94,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
       <guid>https://pyotek.github.io/scripts/</guid>
       <description>  ScriptsSnippet
 Scripts and small pieces of code.
-Links listed here are direct links to GitHub. To find related posts, click on the category tags (they look like this).
+Links listed here are direct links to GitHub. To find related posts, click on the category tags above.
  PowerShell  PowHash - file hashing with progress and drag &amp;lsquo;n&amp;rsquo; drop Couch-Gaming Script - Switch display based on USB device  </description>
     </item>
     
@@ -162,10 +115,10 @@ Hardware mods  Make a SNES Gamepad/Controller wireless  3D printing models &amp;
       <pubDate>Sat, 30 Jul 2016 16:13:37 +0200</pubDate>
       
       <guid>https://pyotek.github.io/about/</guid>
-      <description>General This GitHub page provides an overview of my projects. It is a simple, mobile-first page with the aim to load fast - especially on smartphones.
-JavaScript This page&amp;rsquo;s basic functionality should work without enabled JavaScript. However, for eventual client-side syntax highlighting or embedded gists, it is recommended to turn it on. 
- Currently, JavaScript is disabled within your browser.
-Donations Read about them here if you want to.</description>
+      <description>General This GitHub page provides an overview of Pyoteks work on current projects. It is a simple, AMPlified mobile-first HTML5 page with the aim to load fast.
+Every person should have the right to access our content in near-zero time.
+JavaScript The blog works without JavaScript. However, for embedded gists or lazy loading of images it is recommended to turn it on. 
+ Currently, JavaScript is disabled within your browser.</description>
     </item>
     
   </channel>

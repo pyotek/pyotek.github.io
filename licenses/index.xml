@@ -12,16 +12,6 @@
     
     
     <item>
-      <title>Highlight.js License (2016-08-07)</title>
-      <link>https://pyotek.github.io/licenses/highlight-js/</link>
-      <pubDate>Sun, 07 Aug 2016 16:13:37 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/licenses/highlight-js/</guid>
-      <description>Copyright &amp;copy; 2006, Ivan Sagalaev All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</description>
-    </item>
-    
-    <item>
       <title>Hyde License (2016-08-07)</title>
       <link>https://pyotek.github.io/licenses/hyde/</link>
       <pubDate>Sun, 07 Aug 2016 16:13:37 +0200</pubDate>
@@ -39,17 +29,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
       <guid>https://pyotek.github.io/licenses/hyde-x/</guid>
       <description>The MIT License (MIT)
 Copyright &amp;copy; 2014 Andrei Mihu
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
-    </item>
-    
-    <item>
-      <title>Material Docs License (2016-08-07)</title>
-      <link>https://pyotek.github.io/licenses/hugo-material-docs/</link>
-      <pubDate>Sun, 07 Aug 2016 16:13:37 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/licenses/hugo-material-docs/</guid>
-      <description>Copyright &amp;copy; 2016 Digitalcraftsman digitalcraftsman@protonmail.com
-Copyright &amp;copy; 2016 Martin Donath martin.donath@squidfunk.com
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</description>
     </item>
     

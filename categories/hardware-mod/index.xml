@@ -13,10 +13,10 @@
     
     <item>
       <title>Mod a SNES Gamepad</title>
-      <link>https://pyotek.github.io/news/snes-ctrl-mod/</link>
+      <link>https://pyotek.github.io/p/snes-ctrl-mod/</link>
       <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/news/snes-ctrl-mod/</guid>
+      <guid>https://pyotek.github.io/p/snes-ctrl-mod/</guid>
       <description>Ever wanted to make a SNES gamepad wireless? Read on!
 Introduction This project description shows how I modified a SNES USB Gamepad/Controller to make it work wirelessly (frequency: 2.4 GHz) by combining it with a wireless keyboard.
 I mostly used XodusTech&amp;rsquo;s site as a starting point. The site helped me with understanding how to marry the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.</description>
