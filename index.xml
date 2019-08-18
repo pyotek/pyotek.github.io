@@ -6,7 +6,7 @@
     <description>Recent content on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jul 2019 16:13:37 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Aug 2019 03:06:53 +0200</lastBuildDate>
     
 	<atom:link href="https://pyotek.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -43,6 +43,17 @@ Hardware mods  Make a SNES Gamepad/Controller wireless 🎮  3D printing models 
       <description>General This GitHub page provides an overview of Pyoteks work on current projects. It is a simple, AMPlified mobile-first HTML5 page with the aim to load fast.
 Every person should have the right to access our content in near-zero time. Have fun!
 JavaScript The blog works without JavaScript. Though we ensured that most content is accessible without it, best user expierence can only be granted with enabled JavaScript.</description>
+    </item>
+    
+    <item>
+      <title>Pyotek Reboots</title>
+      <link>https://pyotek.github.io/p/pyotek-reboots/</link>
+      <pubDate>Sun, 18 Aug 2019 03:06:53 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/p/pyotek-reboots/</guid>
+      <description>What is this Pyotek, anyways? For now, it is a Tech-Blog that respects your privacy with a strong focus on Software and Hardware projects. On the other hand, it is also a GitHub organization/collective (yeah, currently a one-man show) that works on Open Source projects.
+Follow Pyotek on its journey!
+Oh hey, we have a fresh new  Instagram account now, too - check it out!  Technical This site is built via Hugo a fantastic static site generator that utilizes Go&amp;rsquo;s template mechanism and is therewith pretty fast.</description>
     </item>
     
     <item>

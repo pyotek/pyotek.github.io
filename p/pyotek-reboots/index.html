@@ -38,18 +38,20 @@
   
 
   <link rel="canonical" href=".">
-  <title>Utility</title>
+  <title>Pyotek Reboots</title>
   <meta name="theme-color" content="#000000">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
   <link rel="icon" sizes="192x192" href="/logo.png">
   <link href="/favicon.png" rel="icon">
 
-  
+  <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://pyotek.github.io/p/pyotek-reboots/"},"headline":"Pyotek Reboots","description":"This blog is resurrected with new superpowers. Well - before, it has never really been alive. We're about to change that. Join the all-new Pyotek on this journey!","image":{"@context":"http://schema.org","@type":"ImageObject","author":"Pyotek","url":"https:/pyotek.github.io/p/pyotek-reboots","datePublished":"2019-08-18T03:06:53"},"wordCount":1064,"datePublished":"2019-08-18T03:06:53","dateModified":"2019-08-18T03:06:53","author":{"@type":"Person","name":"Pyotek"},"publisher":{"@type":"Organization","name":"Pyotek","logo":{"@type":"ImageObject","url":"https://pyotek.github.io/logo.png "}}}
+    </script>
   <link rel="manifest" href="https://pyotek.github.io/manifest.min.json">
   
-  <link rel="alternate" type="application/rss+xml" href="https://pyotek.github.io/tags/utility/index.xml" title="Pyotek's Projects" />
+  
 
-  <meta name="description" content="">
+  <meta name="description" content="This blog is resurrected with new superpowers. Well - before, it has never really been alive. We&#39;re about to change that. Join the all-new Pyotek on this journey!">
   
 </head><body class="theme-black94" id="top">
         
@@ -103,11 +105,185 @@
       </div>
   </div>
 </div><div class="content container" id="txt">
-        <ul class="posts">
-    <li><a href="https://pyotek.github.io/index.html">Introducing PowHash</a>
-      
-      &middot; <time>Sep 7, 2016</time></li>
+        <div class="post">
+    <h1 class="post-title">Pyotek Reboots</h1>
+    <span class="post-date">Aug 18, 2019 &middot; 5 minute read
+    
+    <br/><a href="https://pyotek.github.io/tags"><i class="icon icon-tags"></i></a> <a class="label" href="https://pyotek.github.io/tags/blog">Blog</a><a class="label" href="https://pyotek.github.io/tags/about">About</a><a class="label" href="https://pyotek.github.io/tags/news">News</a><a class="label" href="https://pyotek.github.io/tags/amp">AMP</a><a class="label" href="https://pyotek.github.io/tags/hugo">Hugo</a>
+</span>
+    
+
+<h2 id="what-is-this-pyotek-anyways">What is this Pyotek, anyways?</h2>
+
+<p>For now, it is a Tech-Blog that <a href="#how-we-respect-your-privacy">respects your privacy</a> with a strong focus on Software and Hardware projects.
+On the other hand, it is also a GitHub organization/collective <small>(yeah, currently a one-man show)</small> that works on Open Source projects.</p>
+
+<p>Follow Pyotek on its journey!</p>
+
+<div class="message success">
+Oh hey, we have a fresh new <i class='icon icon-instagram'></i>
+ Instagram account now, too - <a href="https://instagram.com/pyotek.co">check it out!</a>
+</div>
+
+<hr />
+
+<h1 id="technical">Technical</h1>
+
+<p>This site is built via <a href="http://gohugo.io/">Hugo</a> a fantastic <em>static</em> site generator that utilizes <a href="https://golang.org/">Go</a>&rsquo;s template mechanism and is therewith pretty fast.
+<em>Static</em> means that the HTML delivered by the server will always be the same for every person. There are no dynamic server-side changes.</p>
+
+<p>That is the reason why we are able to host on <a href="https://pages.github.com">GitHub pages</a> which - put in simple words - serves repository files without ever making any changes to them.</p>
+
+<h2 id="the-past">The Past</h2>
+
+<p>Before, we used a customized (in the sense of manually stripped-down) version of the now deprecated <a href="https://github.com/zyro/hyde-x">Hyde-X theme</a>. This theme was based on <a href="https://github.com/poole/hyde/">Hyde</a>, a very popular theme for another static site generator named <em>Jekyll</em> (fitting, eh?).</p>
+
+<p>Though very inactive, this blog worked pretty well for about 2 years - but it was neither very responsive on smaller screens nor SEO-optimized.
+With newer Hugo major releases, there also came up incompatibility problems and errors regarding the theme&rsquo;s layout files.</p>
+
+<p>Therefore, we decided to do a full migration of the theme.</p>
+
+<h2 id="the-state-of-the-art">The State of the Art</h2>
+
+<p>We rewrote most of <a href="https://github.com/zyro/hyde-x">Hyde-X</a>&rsquo;s templates, changed about half of the CSS and adapted to the freshest Hugo features (<a href="https://gohugo.io/hugo-pipes/">Hugo Pipes</a>, anyone?).
+We tested and tested&hellip; And we made it lightning-fast ⚡️ - by limiting to just a few HTTP requests and only using the relevant styles for the current page.</p>
+
+<p>Oh and  we implemented another major breaking change: <strong>We made it fully AMP-conform.</strong></p>
+
+<h3 id="let-s-ampify">Let&rsquo;s AMPify!</h3>
+
+<p>So what is AMP?
+This is how the project is advertised on <a href="https://amp.dev">amp.dev</a>:</p>
+
+<blockquote>
+<p><abbr title="Accelerated Mobile Pages">AMP</abbr> is an open-source HTML framework that provides a straightforward way to create web pages that are fast, smooth-loading and prioritize the user-experience above all else.</p>
+</blockquote>
+
+<p>To support that, AMP uses several clever modern web development concepts (<a href="https://amp.dev/about/how-amp-works/">read how AMP works</a>).
+It has to be said that most website developers use AMP for primarily one single reason consisting of three letters: <abbr title="Search Engine Optimization">SEO</abbr>. But why?</p>
+
+<h4 id="dark-sides">Dark Sides 😈</h4>
+
+<p>Well, AMP is a project introduced by Google. At least on mobile, your AMP site <a href="https://moz.com/blog/amp-digital-marketing-2018">evidently ranks better</a> than your regular one.</p>
+
+<p>There have been <a href="https://www.polemicdigital.com/google-amp-go-to-hell/">more</a> <a href="https://www.theregister.co.uk/2017/05/19/open_source_insider_google_amp_bad_bad_bad/">than</a> <a href="https://timkadlec.com/remembers/2018-12-04-risking-a-homogenous-web/">one</a> critical voices about it. Primarily, this is because people fear that the web gets centralized more and more around the search giant.</p>
+
+<p>To be honest, we can agree to some of the critical points. Google prioritizes AMP content. By doing so, the big 🐙 Google could <em>potentially</em> get even more control over the web.</p>
+
+<p>Furthermore, some people would say that a company <a href="https://www.statista.com/statistics/266249/advertising-revenue-of-google/">which makes not just a few dollars</a> with personalized ads conceptually cannot exactly respect your privacy.</p>
+
+<p>So which <del>evil</del> spirit moved us to use this particular web technology?</p>
+
+<h4 id="bright-sides">Bright Sides 👼</h4>
+
+<p>We have to admit that there are some really good things about AMP. Like often, there is no clear &ldquo;good&rdquo; (👼) or &ldquo;bad&rdquo; (😈).</p>
+
+<p>Well. First, <a href="https://github.com/ampproject">AMP&rsquo;s source code</a> can fully be reviewed. Everyone can verify that there is no user tracking involved unless the web page author actively decides to do that (e.g. via analytics).
+Secondly, Google has no intention to use AMP&rsquo;s JS components itself for <em>spying</em> purposes. That is simply not the aim of the project.</p>
+
+<p><small>For completeness, it has to be mentioned here that Google&rsquo;s AMP cache is <a href="https://developers.google.com/amp/cache/policies">subject to its privacy policy</a>, which means that Google can collect data if you use the cache (i.e. by visiting the page from Google&rsquo;s search results - but then you already agreed to the policy anyways).</small></p>
+
+<p>We like performance-tuned code and this is exactly where we see AMPs strengths:</p>
+
+<ul>
+<li>AMPs components are <strong>pluggable</strong></li>
+<li>AMPs JS is <strong>optimized</strong> thoroughly</li>
+<li><strong>Async loading</strong> of scripts, images etc. guarentees a smooth experience (no more strangely moving text etc.)</li>
+<li>You <em>need</em> to follow some of <strong>modern best practices</strong> for <em>performance</em> and <em>security</em> (reduce requests, use HTTPS, etc.)</li>
+<li><strong>Custom JS is forbidden</strong> per design: We never liked how some pages are completely bloated with JavaScript without showing any content for the first 10 seconds&hellip;</li>
 </ul>
+
+<p>While it can be a complex (or even impossible?) task to migrate existing pages with a lot of JS, quickly prototyping a whole fresh website is a relatively easy task.</p>
+
+<p>If there is not much JS to take care of, it&rsquo;s also pretty doable - as done for this page:</p>
+
+<h4 id="how-we-did-it">How we did it</h4>
+
+<p>We started with the official documentation and followed the tutorial &ldquo;<a href="https://amp.dev/documentation/guides-and-tutorials/start/converting/">Convert HTML to AMP</a>&rdquo;.
+It is pretty easy. Until you enable the nasty <code>#development=1</code> flag and see all the shiny red validator errors in the JS console.</p>
+
+<p>At first these errors felt overwhelming. But don&rsquo;t be too afraid. We fixed them piece for piece - and it was a great feeling to finally see the following:</p>
+
+
+
+
+<div>
+    
+    <amp-img role="button" tabindex="0" on="tap:lightbox-1"
+    
+    src="./media/amp-success.png"
+    
+    
+    
+    layout="responsive"
+    width="625"
+    height="99">
+    <noscript>
+        <img src="./media/amp-success.png"  >
+    </noscript>
+    </amp-img>
+    <amp-image-lightbox id="lightbox-1" layout="nodisplay"></amp-image-lightbox>
+</div>
+
+
+<p>Yes, <strong>AMP validation successful</strong>!</p>
+
+<p>Porting a page from regular HTML to AMP-conform HTML is a very individual task, but AMP&rsquo;s documentation is supportive. It always seemed to be up-to-date and we only ran over some smaller typos/mistakes.</p>
+
+<h3 id="how-we-respect-your-privacy">How we respect your Privacy</h3>
+
+<p>While the AMPification we always had two things in mind: What is with people who want to stay away from the biggest search giant as much as possible but still want to use this site? What is with people who do not want to use JavaScript on an unknown new blog with a big lime <strong>P</strong>?</p>
+
+<p>Our solution:
+We made sure that you can still access most of the content without using JavaScript.
+This also results into fewer HTTP requests (smaller attack surface):</p>
+
+
+
+
+<div>
+    
+    <amp-img role="button" tabindex="0" on="tap:lightbox-2"
+    
+    src="./media/without-js.png"
+    
+    
+    
+    layout="responsive"
+    width="828"
+    height="176">
+    <noscript>
+        <img src="./media/without-js.png"  >
+    </noscript>
+    </amp-img>
+    <amp-image-lightbox id="lightbox-2" layout="nodisplay"></amp-image-lightbox>
+</div>
+
+
+<p>See how the <code>v0.js</code> request is blocked?</p>
+
+<p>Additionally, we currently do <em>not</em> have any plans of integrating analytics, ads or any other form of user tracking.
+First, we want to at least try to stay a complete <a href="{{ ref &quot;donate&quot; }}">donation-based</a> blog.</p>
+
+<h2 id="the-future">The Future</h2>
+
+<p>Here&rsquo;s what&rsquo;s currently on our blog theme&rsquo;s roadmap:</p>
+
+<ol>
+<li>Mobile: Auto-hide top bar when scrolling</li>
+<li>Mobile: Implement an actual <a href="https://amp.dev/documentation/examples/components/amp-sidebar">sidebar</a></li>
+<li>Mobile: Improve offline usage</li>
+<li>Add user configuration using <abbr title="Progressive Web App">PWA</abbr> mechanisms</li>
+<li>Refactor and improve theme</li>
+</ol>
+
+<div class="message info">
+<strong>If there is enough interest</strong>, we might decide to generalize this theme and give it back to the awesome Hugo community. Let us know!
+</div>
+
+<p>Let&rsquo;s see what the future will bring.</p>
+
+</div>
         </div>
         <div class="content container">
 <footer>
