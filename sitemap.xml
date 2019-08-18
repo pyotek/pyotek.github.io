@@ -3,12 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://pyotek.github.io/development/</loc>
+    <lastmod>2016-08-01T13:17:06+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/make-n-mod/</loc>
+    <lastmod>2016-07-30T16:15:55+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/about/</loc>
+    <lastmod>2016-07-30T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pyotek.github.io/offline/</loc>
     <lastmod>2019-07-30T16:13:37+02:00</lastmod>
   </url>
   
   <url>
+    <loc>https://pyotek.github.io/</loc>
+    <lastmod>2019-07-30T16:13:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/crypto/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/diy/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/make/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/pi/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pyotek.github.io/p/picecold/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/posts/</loc>
+    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/</loc>
     <lastmod>2017-11-12T16:33:10+01:00</lastmod>
   </url>
   
@@ -20,6 +70,36 @@
   <url>
     <loc>https://pyotek.github.io/p/powhash/</loc>
     <lastmod>2016-09-07T22:13:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/powershell/</loc>
+    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/scripts/</loc>
+    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/utility/</loc>
+    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/documentation/</loc>
+    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/hardware/</loc>
+    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pyotek.github.io/tags/mod/</loc>
+    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
   </url>
   
   <url>
@@ -38,94 +118,16 @@
   </url>
   
   <url>
-    <loc>https://pyotek.github.io/scripts/</loc>
-    <lastmod>2016-08-01T13:17:06+02:00</lastmod>
+    <loc>https://pyotek.github.io/licenses/</loc>
+    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pyotek.github.io/make-n-mod/</loc>
-    <lastmod>2016-07-30T16:15:55+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/about/</loc>
-    <lastmod>2016-07-30T16:13:37+02:00</lastmod>
+    <loc>https://pyotek.github.io/bagdes/</loc>
   </url>
   
   <url>
     <loc>https://pyotek.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/crypto/</loc>
-    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/documentation/</loc>
-    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/hardware-mod/</loc>
-    <lastmod>2016-08-10T01:14:23+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/licenses/</loc>
-    <lastmod>2016-08-07T16:13:37+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/make-n-mod/</loc>
-    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/pi/</loc>
-    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/posts/</loc>
-    <lastmod>2017-11-12T16:33:10+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/powershell/</loc>
-    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/</loc>
-    <lastmod>2019-07-30T16:13:37+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/scripts/</loc>
-    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pyotek.github.io/categories/utility/</loc>
-    <lastmod>2016-09-07T22:13:56+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

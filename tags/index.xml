@@ -6,9 +6,100 @@
     <description>Recent content in Tags on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2017 16:33:10 +0100</lastBuildDate>
     
 	<atom:link href="https://pyotek.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crypto</title>
+      <link>https://pyotek.github.io/tags/crypto/</link>
+      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DIY</title>
+      <link>https://pyotek.github.io/tags/diy/</link>
+      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/diy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Make</title>
+      <link>https://pyotek.github.io/tags/make/</link>
+      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/make/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pi</title>
+      <link>https://pyotek.github.io/tags/pi/</link>
+      <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PowerShell</title>
+      <link>https://pyotek.github.io/tags/powershell/</link>
+      <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scripts</title>
+      <link>https://pyotek.github.io/tags/scripts/</link>
+      <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/scripts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utility</title>
+      <link>https://pyotek.github.io/tags/utility/</link>
+      <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://pyotek.github.io/tags/documentation/</link>
+      <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/documentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://pyotek.github.io/tags/hardware/</link>
+      <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mod</title>
+      <link>https://pyotek.github.io/tags/mod/</link>
+      <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/tags/mod/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

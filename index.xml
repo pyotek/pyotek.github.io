@@ -12,6 +12,40 @@
     
     
     <item>
+      <title>Development</title>
+      <link>https://pyotek.github.io/development/</link>
+      <pubDate>Mon, 01 Aug 2016 13:17:06 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/development/</guid>
+      <description>  DevWebAppScripts
+Software, (Web-) Applications, Scripts and other related Software engineering work.
+Links listed here are direct links to GitHub. To find related posts, click on the category tags above.
+PowerShell  PowHash - file hashing with progress and drag &amp;lsquo;n&amp;rsquo; drop Couch-Gaming Script - Switch display based on USB device  </description>
+    </item>
+    
+    <item>
+      <title>Make &#39;n&#39; Mod</title>
+      <link>https://pyotek.github.io/make-n-mod/</link>
+      <pubDate>Sat, 30 Jul 2016 16:15:55 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/make-n-mod/</guid>
+      <description>MakeModDIY
+Open Source DIY projects, hardware modifications/customizations and more.
+Hardware mods  Make a SNES Gamepad/Controller wireless 🎮  3D printing models Come back here, soon!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://pyotek.github.io/about/</link>
+      <pubDate>Sat, 30 Jul 2016 16:13:37 +0200</pubDate>
+      
+      <guid>https://pyotek.github.io/about/</guid>
+      <description>General This GitHub page provides an overview of Pyoteks work on current projects. It is a simple, AMPlified mobile-first HTML5 page with the aim to load fast.
+Every person should have the right to access our content in near-zero time. Have fun!
+JavaScript The blog works without JavaScript. Though we ensured that most content is accessible without it, best user expierence can only be granted with enabled JavaScript.</description>
+    </item>
+    
+    <item>
       <title>Offline</title>
       <link>https://pyotek.github.io/offline/</link>
       <pubDate>Tue, 30 Jul 2019 16:13:37 +0200</pubDate>
@@ -38,9 +72,7 @@ Because the attacker is friendly enough (and because this is a theoretic scenari
       <pubDate>Wed, 14 Sep 2016 00:50:13 +0200</pubDate>
       
       <guid>https://pyotek.github.io/donate/</guid>
-      <description>Why donate? This blog is completely non-profit. Many linked and related projects are Open-Source and free to use.
-Of course, it would be amazing if you want to donate something and therewith appreciate Pyotek&amp;rsquo;s work. Donations also motivate us devs and show that we are not doing completely useless stuff.
-With your donation, you support us so that we are able to invest more in ideas, development, coffee and new hardware.</description>
+      <description>Donate via  Donate ₿itcoin Donate Ξther  Donate via PayPal You will shortly be redirected to PayPal (after clicking the button). Otherwise use this static link.   Donate via PayPal You will shortly be redirected to PayPal (after clicking the button). Otherwise use this static link.   Donate Bitcoin (BTC) Regarding the address, you have to make a wise decision (may has an influence on the programming style):</description>
     </item>
     
     <item>
@@ -87,38 +119,12 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
     </item>
     
     <item>
-      <title>Scripts</title>
-      <link>https://pyotek.github.io/scripts/</link>
-      <pubDate>Mon, 01 Aug 2016 13:17:06 +0200</pubDate>
+      <title></title>
+      <link>https://pyotek.github.io/bagdes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://pyotek.github.io/scripts/</guid>
-      <description>  ScriptsSnippet
-Scripts and small pieces of code.
-Links listed here are direct links to GitHub. To find related posts, click on the category tags above.
- PowerShell  PowHash - file hashing with progress and drag &amp;lsquo;n&amp;rsquo; drop Couch-Gaming Script - Switch display based on USB device  </description>
-    </item>
-    
-    <item>
-      <title>Make &#39;n&#39; Mod</title>
-      <link>https://pyotek.github.io/make-n-mod/</link>
-      <pubDate>Sat, 30 Jul 2016 16:15:55 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/make-n-mod/</guid>
-      <description>Make &amp;#39;n&amp;#39; Mod
-DIY stuff: Hardware modifications, 3D printing and more.
-Hardware mods  Make a SNES Gamepad/Controller wireless  3D printing models &amp;hellip; to be continued.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://pyotek.github.io/about/</link>
-      <pubDate>Sat, 30 Jul 2016 16:13:37 +0200</pubDate>
-      
-      <guid>https://pyotek.github.io/about/</guid>
-      <description>General This GitHub page provides an overview of Pyoteks work on current projects. It is a simple, AMPlified mobile-first HTML5 page with the aim to load fast.
-Every person should have the right to access our content in near-zero time.
-JavaScript The blog works without JavaScript. However, for embedded gists or lazy loading of images it is recommended to turn it on. 
- Currently, JavaScript is disabled within your browser.</description>
+      <guid>https://pyotek.github.io/bagdes/</guid>
+      <description>Donate via  Donate ₿itcoin Donate Ξther </description>
     </item>
     
   </channel>
