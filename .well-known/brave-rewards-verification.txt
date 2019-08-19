@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: pyotek.github.io
+Token: 222e3c197e9f6e9b26aea120317d8e614dcc4f92930062309f077945f7ca002e
