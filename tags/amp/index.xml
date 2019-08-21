@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AMP on Pyotek&#39;s Projects</title>
-    <link>https://pyotek.co/tags/amp/</link>
-    <description>Recent content in AMP on Pyotek&#39;s Projects</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 18 Aug 2019 03:06:53 +0200</lastBuildDate>
-    
-	<atom:link href="https://pyotek.co/tags/amp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Pyotek Reboots</title>
-      <link>https://pyotek.co/p/pyotek-reboots/</link>
-      <pubDate>Sun, 18 Aug 2019 03:06:53 +0200</pubDate>
-      
-      <guid>https://pyotek.co/p/pyotek-reboots/</guid>
-      <description>What is this Pyotek, anyways? For now, it is a Tech-Blog that respects your privacy with a strong focus on Software and Hardware projects. On the other hand, it is also a GitHub organization/collective (yeah, currently a one-man show) that works on Open Source projects.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AMP on Pyotek&#39;s Projects</title><link>https://pyotek.co/tags/amp/</link><description>Recent content in AMP on Pyotek&#39;s Projects</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 18 Aug 2019 03:06:53 +0200</lastBuildDate><atom:link href="https://pyotek.co/tags/amp/index.xml" rel="self" type="application/rss+xml"/><item><title>Pyotek Reboots</title><link>https://pyotek.co/p/pyotek-reboots/</link><pubDate>Sun, 18 Aug 2019 03:06:53 +0200</pubDate><guid>https://pyotek.co/p/pyotek-reboots/</guid><description>What is this Pyotek, anyways? For now, it is a Tech-Blog that respects your privacy with a strong focus on Software and Hardware projects. On the other hand, it is also a GitHub organization/collective (yeah, currently a one-man show) that works on Open Source projects.
 Follow Pyotek on its journey!
-Oh hey, we have a fresh new  Instagram account now, too - check it out!  Technical This site is built via Hugo a fantastic static site generator that utilizes Go&amp;rsquo;s template mechanism and is therewith pretty fast.</description>
-    </item>
-    
-  </channel>
-</rss>
+Oh hey, we have a fresh new Instagram account now, too - check it out! Technical This site is built via Hugo a fantastic static site generator that utilizes Go&amp;rsquo;s template mechanism and is therewith pretty fast.</description></item></channel></rss>
