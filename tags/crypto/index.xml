@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crypto on Pyotek&#39;s Projects</title>
-    <link>https://pyotek.github.io/tags/crypto/</link>
+    <link>https://pyotek.co/tags/crypto/</link>
     <description>Recent content in Crypto on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Nov 2017 16:33:10 +0100</lastBuildDate>
     
-	<atom:link href="https://pyotek.github.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyotek.co/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PiceCold</title>
-      <link>https://pyotek.github.io/p/picecold/</link>
+      <link>https://pyotek.co/p/picecold/</link>
       <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
       
-      <guid>https://pyotek.github.io/p/picecold/</guid>
+      <guid>https://pyotek.co/p/picecold/</guid>
       <description>Why do you need a cold wallet for your Bitcoins? Imagine the following scenario:
 Your PC gets compromised. You do not notice it. You secured your wallet with a password which is sufficient? Does not matter, the attacker installed a keylogger. He only needs to sniff your password next time you do a transaction.
 Because the attacker is friendly enough (and because this is a theoretic scenario), he only stole 1 BTC out of your wallet and left a note on your desktop:</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Pyotek&#39;s Projects</title>
-    <link>https://pyotek.github.io/posts/</link>
+    <link>https://pyotek.co/posts/</link>
     <description>Recent content in Posts on Pyotek&#39;s Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Aug 2019 03:06:53 +0200</lastBuildDate>
     
-	<atom:link href="https://pyotek.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pyotek.co/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pyotek Reboots</title>
-      <link>https://pyotek.github.io/p/pyotek-reboots/</link>
+      <link>https://pyotek.co/p/pyotek-reboots/</link>
       <pubDate>Sun, 18 Aug 2019 03:06:53 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/p/pyotek-reboots/</guid>
+      <guid>https://pyotek.co/p/pyotek-reboots/</guid>
       <description>What is this Pyotek, anyways? For now, it is a Tech-Blog that respects your privacy with a strong focus on Software and Hardware projects. On the other hand, it is also a GitHub organization/collective (yeah, currently a one-man show) that works on Open Source projects.
 Follow Pyotek on its journey!
 Oh hey, we have a fresh new  Instagram account now, too - check it out!  Technical This site is built via Hugo a fantastic static site generator that utilizes Go&amp;rsquo;s template mechanism and is therewith pretty fast.</description>
@@ -24,10 +24,10 @@ Oh hey, we have a fresh new  Instagram account now, too - check it out!  Technic
     
     <item>
       <title>PiceCold</title>
-      <link>https://pyotek.github.io/p/picecold/</link>
+      <link>https://pyotek.co/p/picecold/</link>
       <pubDate>Sun, 12 Nov 2017 16:33:10 +0100</pubDate>
       
-      <guid>https://pyotek.github.io/p/picecold/</guid>
+      <guid>https://pyotek.co/p/picecold/</guid>
       <description>Why do you need a cold wallet for your Bitcoins? Imagine the following scenario:
 Your PC gets compromised. You do not notice it. You secured your wallet with a password which is sufficient? Does not matter, the attacker installed a keylogger. He only needs to sniff your password next time you do a transaction.
 Because the attacker is friendly enough (and because this is a theoretic scenario), he only stole 1 BTC out of your wallet and left a note on your desktop:</description>
@@ -35,10 +35,10 @@ Because the attacker is friendly enough (and because this is a theoretic scenari
     
     <item>
       <title>Introducing PowHash</title>
-      <link>https://pyotek.github.io/p/powhash/</link>
+      <link>https://pyotek.co/p/powhash/</link>
       <pubDate>Wed, 07 Sep 2016 22:13:56 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/p/powhash/</guid>
+      <guid>https://pyotek.co/p/powhash/</guid>
       <description>The idea File Hashing is the correct way to determine data integrity of your downloads and more. Therefore, it&amp;rsquo;s practical to have built-in OS capabilities to hash files.
 The PowerShell provides a nice and easy-to-use way to do that - the Get-FileHash Utility Cmdlet. That&amp;rsquo;s right: File-Hashing with MD5 and various SHA&amp;hellip; variants ready to use in Windows!
 Tired of old batch scripts? The PowerShell does have some really nice and powerful features.</description>
@@ -46,10 +46,10 @@ Tired of old batch scripts? The PowerShell does have some really nice and powerf
     
     <item>
       <title>Mod a SNES Gamepad</title>
-      <link>https://pyotek.github.io/p/snes-ctrl-mod/</link>
+      <link>https://pyotek.co/p/snes-ctrl-mod/</link>
       <pubDate>Wed, 10 Aug 2016 01:14:23 +0200</pubDate>
       
-      <guid>https://pyotek.github.io/p/snes-ctrl-mod/</guid>
+      <guid>https://pyotek.co/p/snes-ctrl-mod/</guid>
       <description>Ever wanted to make a SNES gamepad wireless? Read on!
 Introduction This project description shows how I modified a SNES USB Gamepad/Controller to make it work wirelessly (frequency: 2.4 GHz) by combining it with a wireless keyboard.
 I mostly used XodusTech&amp;rsquo;s site as a starting point. The site helped me with understanding how to marry the gamepad with the keyboard&amp;rsquo;s 2.4 GHz transmitter, so you probably want to visit it, too.</description>
