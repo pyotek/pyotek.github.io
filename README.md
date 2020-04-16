@@ -1,8 +1,8 @@
-<a href="http://pyotek.dev/" target="_blank">
-    <img align="right" alt="Pyotek Icon" src="https://pyotek.dev/logo.png" width="256">
+<a href="https://pyotek.dev/" target="_blank">
+    <img align="right" alt="Pyotek Icon" src="https://pyotek.dev/logo.png" width="32" height="32">
 </a>
 
-# Pyotek's Projects 
+# [Pyotek's Projects](https://pyotek.dev/) 
 
 This public GitHub page has now been moved to...
 
