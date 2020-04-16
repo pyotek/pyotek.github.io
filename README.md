@@ -1,5 +1,5 @@
 <a href="https://pyotek.dev/" target="_blank">
-    <img align="right" alt="Pyotek Icon" src="https://pyotek.dev/logo.png" width="32" height="32">
+    <img align="right" alt="Pyotek Icon" src="https://pyotek.dev/logo.png" width="48" height="48">
 </a>
 
 # [Pyotek's Projects](https://pyotek.dev/) 
