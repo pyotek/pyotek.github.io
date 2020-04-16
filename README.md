@@ -11,7 +11,7 @@ This public GitHub page has now been moved to...
 Pyotek hopes to gain the following advantages:
 
 1. More speed (especially caching policy `> 10 min` per asset)
-2. Easier, specialized managent
+2. Easier, specialized management
 3. Custom Netlify DNS
 4. Advanced features
 5. Netlify upgrade possibilities in the future
